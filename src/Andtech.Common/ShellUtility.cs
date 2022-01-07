@@ -1,8 +1,9 @@
-﻿
+﻿using System;
+
 namespace Andtech.Common
 {
 
-	internal class ShellUtility
+	public static class ShellUtility
 	{
 
 		/// <summary>

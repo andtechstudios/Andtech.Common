@@ -1,4 +1,6 @@
-﻿namespace Andtech.Common
+﻿using System;
+
+namespace Andtech.Common
 {
 
 	public static class Log
