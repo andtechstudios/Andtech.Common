@@ -1,10 +1,93 @@
 ﻿using System;
+using System.IO;
 
 namespace Andtech.Common
 {
 
 	public static class ShellUtility
 	{
+
+		/// <summary>
+		/// Moves the file or directory to the destination.
+		/// </summary>
+		/// <param name="sourcePath">The name of the file/directory to move.</param>
+		/// <param name="destPath">The new path of the file/directory.</param>
+		/// <param name="overwrite">true if the destination can be overwritten; false otherwise.</param>
+		public static void Move(string sourcePath, string destPath, bool overwrite = true)
+		{
+			var attributes = File.GetAttributes(sourcePath);
+			if (attributes.HasFlag(FileAttributes.Directory))
+			{
+				if (Directory.Exists(destPath))
+				{
+					if (!overwrite)
+					{
+						throw new IOException($"The destination exists and cannot be overwritten: '{destPath}'");
+					}
+
+					Directory.Delete(destPath, true);
+				}
+				
+				Directory.Move(sourcePath, destPath);
+			}
+			else
+			{
+				File.Move(sourcePath, destPath, overwrite);
+			}
+		}
+
+		/// <summary>
+		/// Copies the file or directory to the destination.
+		/// </summary>
+		/// <param name="sourcePath">The name of the file/directory to move.</param>
+		/// <param name="destPath">The new path of the file/directory.</param>
+		/// <param name="overwrite">true if the destination can be overwritten; false otherwise.</param>
+		public static void Copy(string sourcePath, string destPath, bool overwrite = false)
+		{
+			var attributes = File.GetAttributes(sourcePath);
+			if (attributes.HasFlag(FileAttributes.Directory))
+			{
+				CopyDirectory(sourcePath, destPath, true);
+			}
+			else
+			{
+				File.Copy(sourcePath, destPath, overwrite);
+			}
+		}
+
+		private static void CopyDirectory(string sourceDirName, string destDirName, bool copySubDirs, bool overwrite = true)
+		{
+			// Get the subdirectories for the specified directory.
+			DirectoryInfo dir = new DirectoryInfo(sourceDirName);
+
+			if (!dir.Exists)
+			{
+				throw new DirectoryNotFoundException($"Source directory does not exist or could not be found: '{sourceDirName}'");
+			}
+
+			DirectoryInfo[] dirs = dir.GetDirectories();
+
+			// If the destination directory doesn't exist, create it.       
+			Directory.CreateDirectory(destDirName);
+
+			// Get the files in the directory and copy them to the new location.
+			FileInfo[] files = dir.GetFiles();
+			foreach (FileInfo file in files)
+			{
+				string tempPath = Path.Combine(destDirName, file.Name);
+				file.CopyTo(tempPath, overwrite);
+			}
+
+			// If copying subdirectories, copy them and their contents to new location.
+			if (copySubDirs)
+			{
+				foreach (DirectoryInfo subdir in dirs)
+				{
+					string tempPath = Path.Combine(destDirName, subdir.Name);
+					CopyDirectory(subdir.FullName, tempPath, copySubDirs);
+				}
+			}
+		}
 
 		/// <summary>
 		/// Run an action in a directory, then switch back.
