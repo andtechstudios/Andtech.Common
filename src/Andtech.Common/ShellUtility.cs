@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Diagnostics;
 using System.IO;
+using System.Runtime.InteropServices;
 
 namespace Andtech.Common
 {
@@ -111,5 +113,40 @@ namespace Andtech.Common
 				Environment.CurrentDirectory = tempCurrentDirectory;
 			}
 		}
+
+		/// <summary>
+		/// Launches the system web browser using <paramref name="url"/>.
+		/// </summary>
+		/// <param name="url">The url to load.</param>
+		public static void OpenBrowser(string url)
+		{
+			var browser = Environment.GetEnvironmentVariable("BROWSER");
+
+			if (string.IsNullOrEmpty(browser))
+			{
+				if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
+				{
+					url = url.Replace("&", "^&");
+					Process.Start(new ProcessStartInfo("cmd", $"/c start {url}") { CreateNoWindow = true });
+				}
+				else if (RuntimeInformation.IsOSPlatform(OSPlatform.Linux))
+				{
+					Process.Start("xdg-open", url);
+				}
+				else if (RuntimeInformation.IsOSPlatform(OSPlatform.OSX))
+				{
+					Process.Start("open", url);
+				}
+				else
+				{
+					throw new PlatformNotSupportedException();
+				}
+			}
+			else
+			{
+				Process.Start(browser, url);
+			}
+		}
+
 	}
 }
