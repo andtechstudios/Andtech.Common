@@ -15,7 +15,7 @@ namespace Andtech.Common
 		/// <returns>A collection of tokens.</returns>
 		public static IEnumerable<string> QuotedSplit(string input)
 		{
-			var regex = new Regex(@"(?<match>[\w-\.]+)|\""(?<match>[\w\s-\.]*)\""|'(?<match>[\w\s-\.]*)'");
+			var regex = new Regex(@"\""(?<match>[^\""]*)\""|'(?<match>[^']*)'|(?<match>[^\s]+)");
 			return
 				from match in regex.Matches(input)
 				select match.Groups["match"].Value;
