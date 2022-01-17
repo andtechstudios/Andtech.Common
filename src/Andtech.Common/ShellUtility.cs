@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
 using System.IO;
+using System.Linq;
 using System.Runtime.InteropServices;
 
 namespace Andtech.Common
@@ -144,7 +145,13 @@ namespace Andtech.Common
 			}
 			else
 			{
-				Process.Start(browser, url);
+				var tokens = ParseUtility.QuotedSplit(browser);
+				var binary = tokens.FirstOrDefault();
+				var arguments = tokens.Skip(1).ToList();
+				arguments.Add(url);
+				Log.WriteLine($"Binary is: '{binary}'", Verbosity.diagnostic);
+				Log.WriteLine($"Arguments are: '{string.Join(", ", arguments)}'", Verbosity.diagnostic);
+				Process.Start(browser, arguments);
 			}
 		}
 
