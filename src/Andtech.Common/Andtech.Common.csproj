@@ -1,13 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
+		<Authors>Andtech Studios</Authors>
+		<Copyright>© 2022 $(Company)</Copyright>
+		<RepositoryUrl>https://github.com/andtechstudios/Andtech.Common</RepositoryUrl>
 		<TargetFramework>net6.0</TargetFramework>
-		<Version></Version>
-		<AssemblyVersion></AssemblyVersion>
-		<FileVersion></FileVersion>
-		<Copyright>© 2022 Andtech Studios</Copyright>
-		<Company>Andtech Studios</Company>
-		<Authos>$(Company)</Authos>
 	</PropertyGroup>
 
 </Project>
