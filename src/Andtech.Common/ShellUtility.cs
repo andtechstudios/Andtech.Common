@@ -151,7 +151,7 @@ namespace Andtech.Common
 				arguments.Add(url);
 				Log.WriteLine($"Binary is: '{binary}'", Verbosity.diagnostic);
 				Log.WriteLine($"Arguments are: '{string.Join(", ", arguments)}'", Verbosity.diagnostic);
-				Process.Start(browser, arguments);
+				Process.Start(binary, arguments);
 			}
 		}
 
