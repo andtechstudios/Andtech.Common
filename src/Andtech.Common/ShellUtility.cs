@@ -7,6 +7,12 @@ using System.Runtime.InteropServices;
 namespace Andtech.Common
 {
 
+	public enum FindOptions
+	{
+		RecursiveDown,
+		RecursiveUp,
+	}
+
 	public static class ShellUtility
 	{
 
@@ -155,5 +161,36 @@ namespace Andtech.Common
 			}
 		}
 
+		public static bool Find(string searchRoot, string query, out string path, FindOptions findOptions = FindOptions.RecursiveDown)
+		{
+			if (findOptions == FindOptions.RecursiveDown)
+			{
+				throw new NotImplementedException();
+			}
+
+			path = searchRoot;
+
+			var directoryInfo = new DirectoryInfo(searchRoot);
+			while (directoryInfo != null)
+			{
+				path = directoryInfo.FullName;
+				var expectedPath = Path.Combine(path, query);
+				if (Directory.Exists(expectedPath))
+				{
+					path = expectedPath;
+					break;
+				}
+
+				var parent = Directory.GetParent(path);
+				if (parent is null)
+				{
+					return false;
+				}
+
+				directoryInfo = parent;
+			}
+
+			return true;
+		}
 	}
 }
