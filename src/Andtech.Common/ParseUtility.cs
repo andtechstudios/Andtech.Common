@@ -20,5 +20,20 @@ namespace Andtech.Common
 				from match in regex.Matches(input)
 				select match.Groups["match"].Value;
 		}
+
+		public static string GlobToRegex(string glob)
+		{
+			glob = Regex.Escape(glob);
+			glob = Regex.Replace(glob, @"\\\*\\\*(/|\\)", @"([^/]+/)*");
+			glob = Regex.Replace(glob, @"\\\*", @"([^/]*)");
+			glob = Regex.Unescape(glob);
+			glob = Regex.Replace(glob, @"^(/|\\)", @"^");
+			if (!Regex.IsMatch(glob, @"(/|\\)$"))
+			{
+				glob += "$";
+			}
+
+			return glob;
+		}
 	}
 }
