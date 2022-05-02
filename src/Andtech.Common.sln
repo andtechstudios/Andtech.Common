@@ -9,8 +9,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Andtech.Common.Tests", "And
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Andtech.Common.Http", "Andtech.Common.Http\Andtech.Common.Http.csproj", "{7C82CD8A-D657-4C06-934D-651E95ACD80B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Andtech.Net", "Andtech.Net\Andtech.Net.csproj", "{BD0C1B30-4E84-46FD-B594-A923B3FE421D}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
