@@ -1,4 +1,7 @@
-﻿
+﻿using Microsoft.AspNetCore.Http;
+using System;
+using System.Threading.Tasks;
+
 namespace Andtech.Common.Http
 {
 
