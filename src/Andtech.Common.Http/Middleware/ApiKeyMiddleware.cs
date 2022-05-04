@@ -23,14 +23,14 @@ namespace Andtech.Common.Http
 				if (!context.Request.Headers.TryGetValue("ApiKey", out var requestApiKey))
 				{
 					context.Response.StatusCode = 401;
-					await context.Response.WriteAsync("UNAUTHORIZED");
+					await context.Response.WriteAsync(string.Empty);
 					return;
 				}
 
 				if (!TestApiKey(requestApiKey))
 				{
 					context.Response.StatusCode = 401;
-					await context.Response.WriteAsync("UNAUTHORIZED");
+					await context.Response.WriteAsync(string.Empty);
 					return;
 				}
 			}
