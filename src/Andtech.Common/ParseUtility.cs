@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Text.RegularExpressions;
 
 namespace Andtech.Common
@@ -34,6 +35,40 @@ namespace Andtech.Common
 			}
 
 			return glob;
+		}
+
+		public static IPEndPoint IPEndPoint(string input)
+		{
+			var match = Regex.Match(input, @"(?<ip>.+?)(:(?<port>\d+))?$");
+			var ipGroup = match.Groups["ip"];
+			var portGroup = match.Groups["port"];
+
+			string ipString = input;
+			if (ipGroup.Success)
+			{
+				ipString = ipGroup.Value;
+			}
+			IPAddress address;
+			if (string.IsNullOrEmpty(ipString) || ipString == "*")
+			{
+				address = IPAddress.Any;
+			}
+			else if (ipString == "localhost" || ipString == "127.0.0.1" || ipString == "::1")
+			{
+				address = IPAddress.Loopback;
+			}
+			else
+			{
+				address = IPAddress.Parse(ipString);
+			}
+
+			int port = 0;
+			if (portGroup.Success)
+			{
+				port = int.Parse(portGroup.Value);
+			}
+
+			return new IPEndPoint(address, port);
 		}
 	}
 }
