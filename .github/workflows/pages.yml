@@ -1,0 +1,14 @@
+jobs:
+  pages:
+    runs-on: ubuntu-latest
+    container: erothejoker/docker-docfx
+    steps:
+      - uses: actions/checkout@v2
+      - run: |
+          docfx metadata Documentation/docfx.json
+          docfx build Documentation/docfx.json --output public
+      - uses: s0/git-publish-subdir-action@develop
+        env:
+          BRANCH: gh-pages
+          FOLDER: public
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

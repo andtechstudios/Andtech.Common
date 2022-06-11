@@ -1,0 +1,10 @@
+apiRules:
+- exclude:
+    uidRegex: \.Tests
+    type: Namespace
+- include:
+    uidRegex: ^Andtech\.
+    type: Namespace
+- exclude:
+    uidRegex: .*
+    type: Namespace

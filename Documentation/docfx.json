@@ -1,0 +1,59 @@
+{
+	"metadata": [
+		{
+			"globalNamespaceId": "Global",
+			"filter": "filterConfig.yml",
+			"src": [
+				{
+					"src": "..",
+					"files": [
+						"src/**/*.cs"
+					],
+					"exclude": [
+					]
+				}
+			],
+			"dest": "api"
+		}
+	],
+	"build": {
+		"globalMetadata": {
+			"_appTitle": "Andtech",
+			"_appFooter": "<span>Copyright © 2022 Andtech Studios<span>",
+			"_enableSearch": true,
+			"_disableContribution": "true"
+		},
+		"content": [
+			{
+				"files": [
+					"toc.yml",
+					"index.md"
+				]
+			},
+			{
+				"src": "api",
+				"dest": "api",
+				"files": [
+					"*.yml"
+				]
+			},
+			{
+				"src": "manual",
+				"dest": "manual",
+				"files": [
+					"toc.yml",
+					"*.md"
+				]
+			}
+		],
+		"resource": [
+			{
+				"files": [
+					"resources/**/*",
+					"logo.svg",
+					"favicon.ico"
+				]
+			}
+		]
+	}
+}
