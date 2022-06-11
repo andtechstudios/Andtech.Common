@@ -47,7 +47,7 @@
   "index.html": {
     "href": "index.html",
     "title": "Andtech Common | Andtech",
-    "keywords": "Andtech Common My collection of useful C# utilities."
+    "keywords": "Andtech Common My collection of useful C# utilities. NuGet Gallery | GitHub | Documentation Installation Visit NuGet Gallery for specific installation instructions. Once the package is installed, use the namespace Andtech.Common to access the api."
   },
   "manual/contentA.html": {
     "href": "manual/contentA.html",
