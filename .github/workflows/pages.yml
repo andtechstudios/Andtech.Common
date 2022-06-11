@@ -10,6 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: |
+          mv README.md Documentation/index.md
           docfx metadata Documentation/docfx.json
           docfx build Documentation/docfx.json --output public
       - uses: s0/git-publish-subdir-action@develop
