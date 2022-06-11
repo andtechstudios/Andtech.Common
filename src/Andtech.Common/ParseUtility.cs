@@ -70,5 +70,21 @@ namespace Andtech.Common
 
 			return new IPEndPoint(address, port);
 		}
+
+		public static string Http(string url)
+		{
+			url = Regex.Replace(url, @"^https?://", string.Empty);
+			url = $"http://{url}"; 
+
+			return url;
+		}
+
+		public static string Https(string url)
+		{
+			url = Regex.Replace(url, @"^https?://", string.Empty);
+			url = $"https://{url}";
+
+			return url;
+		}
 	}
 }
