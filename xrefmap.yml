@@ -1,0 +1,429 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Andtech.Common
+  name: Andtech.Common
+  href: api/Andtech.Common.html
+  commentId: N:Andtech.Common
+  fullName: Andtech.Common
+  nameWithType: Andtech.Common
+- uid: Andtech.Common.FindOptions
+  name: FindOptions
+  href: api/Andtech.Common.FindOptions.html
+  commentId: T:Andtech.Common.FindOptions
+  fullName: Andtech.Common.FindOptions
+  nameWithType: FindOptions
+- uid: Andtech.Common.FindOptions.RecursiveDown
+  name: RecursiveDown
+  href: api/Andtech.Common.FindOptions.html#Andtech_Common_FindOptions_RecursiveDown
+  commentId: F:Andtech.Common.FindOptions.RecursiveDown
+  fullName: Andtech.Common.FindOptions.RecursiveDown
+  nameWithType: FindOptions.RecursiveDown
+- uid: Andtech.Common.FindOptions.RecursiveUp
+  name: RecursiveUp
+  href: api/Andtech.Common.FindOptions.html#Andtech_Common_FindOptions_RecursiveUp
+  commentId: F:Andtech.Common.FindOptions.RecursiveUp
+  fullName: Andtech.Common.FindOptions.RecursiveUp
+  nameWithType: FindOptions.RecursiveUp
+- uid: Andtech.Common.Http
+  name: Andtech.Common.Http
+  href: api/Andtech.Common.Http.html
+  commentId: N:Andtech.Common.Http
+  fullName: Andtech.Common.Http
+  nameWithType: Andtech.Common.Http
+- uid: Andtech.Common.Http.ApiKeyMiddleware
+  name: ApiKeyMiddleware
+  href: api/Andtech.Common.Http.ApiKeyMiddleware.html
+  commentId: T:Andtech.Common.Http.ApiKeyMiddleware
+  fullName: Andtech.Common.Http.ApiKeyMiddleware
+  nameWithType: ApiKeyMiddleware
+- uid: Andtech.Common.Http.ApiKeyMiddleware.#ctor(RequestDelegate)
+  name: ApiKeyMiddleware(RequestDelegate)
+  href: api/Andtech.Common.Http.ApiKeyMiddleware.html#Andtech_Common_Http_ApiKeyMiddleware__ctor_RequestDelegate_
+  commentId: M:Andtech.Common.Http.ApiKeyMiddleware.#ctor(RequestDelegate)
+  fullName: Andtech.Common.Http.ApiKeyMiddleware.ApiKeyMiddleware(RequestDelegate)
+  nameWithType: ApiKeyMiddleware.ApiKeyMiddleware(RequestDelegate)
+- uid: Andtech.Common.Http.ApiKeyMiddleware.#ctor*
+  name: ApiKeyMiddleware
+  href: api/Andtech.Common.Http.ApiKeyMiddleware.html#Andtech_Common_Http_ApiKeyMiddleware__ctor_
+  commentId: Overload:Andtech.Common.Http.ApiKeyMiddleware.#ctor
+  isSpec: "True"
+  fullName: Andtech.Common.Http.ApiKeyMiddleware.ApiKeyMiddleware
+  nameWithType: ApiKeyMiddleware.ApiKeyMiddleware
+- uid: Andtech.Common.Http.ApiKeyMiddleware.InvokeAsync(HttpContext)
+  name: InvokeAsync(HttpContext)
+  href: api/Andtech.Common.Http.ApiKeyMiddleware.html#Andtech_Common_Http_ApiKeyMiddleware_InvokeAsync_HttpContext_
+  commentId: M:Andtech.Common.Http.ApiKeyMiddleware.InvokeAsync(HttpContext)
+  fullName: Andtech.Common.Http.ApiKeyMiddleware.InvokeAsync(HttpContext)
+  nameWithType: ApiKeyMiddleware.InvokeAsync(HttpContext)
+- uid: Andtech.Common.Http.ApiKeyMiddleware.InvokeAsync*
+  name: InvokeAsync
+  href: api/Andtech.Common.Http.ApiKeyMiddleware.html#Andtech_Common_Http_ApiKeyMiddleware_InvokeAsync_
+  commentId: Overload:Andtech.Common.Http.ApiKeyMiddleware.InvokeAsync
+  isSpec: "True"
+  fullName: Andtech.Common.Http.ApiKeyMiddleware.InvokeAsync
+  nameWithType: ApiKeyMiddleware.InvokeAsync
+- uid: Andtech.Common.Http.ApiKeyMiddleware.TestApiKey
+  name: TestApiKey
+  href: api/Andtech.Common.Http.ApiKeyMiddleware.html#Andtech_Common_Http_ApiKeyMiddleware_TestApiKey
+  commentId: P:Andtech.Common.Http.ApiKeyMiddleware.TestApiKey
+  fullName: Andtech.Common.Http.ApiKeyMiddleware.TestApiKey
+  nameWithType: ApiKeyMiddleware.TestApiKey
+- uid: Andtech.Common.Http.ApiKeyMiddleware.TestApiKey*
+  name: TestApiKey
+  href: api/Andtech.Common.Http.ApiKeyMiddleware.html#Andtech_Common_Http_ApiKeyMiddleware_TestApiKey_
+  commentId: Overload:Andtech.Common.Http.ApiKeyMiddleware.TestApiKey
+  isSpec: "True"
+  fullName: Andtech.Common.Http.ApiKeyMiddleware.TestApiKey
+  nameWithType: ApiKeyMiddleware.TestApiKey
+- uid: Andtech.Common.Log
+  name: Log
+  href: api/Andtech.Common.Log.html
+  commentId: T:Andtech.Common.Log
+  fullName: Andtech.Common.Log
+  nameWithType: Log
+- uid: Andtech.Common.Log.Error
+  name: Error
+  href: api/Andtech.Common.Log.html#Andtech_Common_Log_Error
+  commentId: P:Andtech.Common.Log.Error
+  fullName: Andtech.Common.Log.Error
+  nameWithType: Log.Error
+- uid: Andtech.Common.Log.Error*
+  name: Error
+  href: api/Andtech.Common.Log.html#Andtech_Common_Log_Error_
+  commentId: Overload:Andtech.Common.Log.Error
+  isSpec: "True"
+  fullName: Andtech.Common.Log.Error
+  nameWithType: Log.Error
+- uid: Andtech.Common.Log.Out
+  name: Out
+  href: api/Andtech.Common.Log.html#Andtech_Common_Log_Out
+  commentId: P:Andtech.Common.Log.Out
+  fullName: Andtech.Common.Log.Out
+  nameWithType: Log.Out
+- uid: Andtech.Common.Log.Out*
+  name: Out
+  href: api/Andtech.Common.Log.html#Andtech_Common_Log_Out_
+  commentId: Overload:Andtech.Common.Log.Out
+  isSpec: "True"
+  fullName: Andtech.Common.Log.Out
+  nameWithType: Log.Out
+- uid: Andtech.Common.Log.Verbosity
+  name: Verbosity
+  href: api/Andtech.Common.Log.html#Andtech_Common_Log_Verbosity
+  commentId: P:Andtech.Common.Log.Verbosity
+  fullName: Andtech.Common.Log.Verbosity
+  nameWithType: Log.Verbosity
+- uid: Andtech.Common.Log.Verbosity*
+  name: Verbosity
+  href: api/Andtech.Common.Log.html#Andtech_Common_Log_Verbosity_
+  commentId: Overload:Andtech.Common.Log.Verbosity
+  isSpec: "True"
+  fullName: Andtech.Common.Log.Verbosity
+  nameWithType: Log.Verbosity
+- uid: Andtech.Common.Log.Write(Andtech.Common.Verbosity)
+  name: Write(Verbosity)
+  href: api/Andtech.Common.Log.html#Andtech_Common_Log_Write_Andtech_Common_Verbosity_
+  commentId: M:Andtech.Common.Log.Write(Andtech.Common.Verbosity)
+  fullName: Andtech.Common.Log.Write(Andtech.Common.Verbosity)
+  nameWithType: Log.Write(Verbosity)
+- uid: Andtech.Common.Log.Write(System.Object,Andtech.Common.Verbosity)
+  name: Write(Object, Verbosity)
+  href: api/Andtech.Common.Log.html#Andtech_Common_Log_Write_System_Object_Andtech_Common_Verbosity_
+  commentId: M:Andtech.Common.Log.Write(System.Object,Andtech.Common.Verbosity)
+  fullName: Andtech.Common.Log.Write(System.Object, Andtech.Common.Verbosity)
+  nameWithType: Log.Write(Object, Verbosity)
+- uid: Andtech.Common.Log.Write(System.Object,ConsoleColor,Andtech.Common.Verbosity)
+  name: Write(Object, ConsoleColor, Verbosity)
+  href: api/Andtech.Common.Log.html#Andtech_Common_Log_Write_System_Object_ConsoleColor_Andtech_Common_Verbosity_
+  commentId: M:Andtech.Common.Log.Write(System.Object,ConsoleColor,Andtech.Common.Verbosity)
+  fullName: Andtech.Common.Log.Write(System.Object, ConsoleColor, Andtech.Common.Verbosity)
+  nameWithType: Log.Write(Object, ConsoleColor, Verbosity)
+- uid: Andtech.Common.Log.Write*
+  name: Write
+  href: api/Andtech.Common.Log.html#Andtech_Common_Log_Write_
+  commentId: Overload:Andtech.Common.Log.Write
+  isSpec: "True"
+  fullName: Andtech.Common.Log.Write
+  nameWithType: Log.Write
+- uid: Andtech.Common.Log.WriteLine(Andtech.Common.Verbosity)
+  name: WriteLine(Verbosity)
+  href: api/Andtech.Common.Log.html#Andtech_Common_Log_WriteLine_Andtech_Common_Verbosity_
+  commentId: M:Andtech.Common.Log.WriteLine(Andtech.Common.Verbosity)
+  fullName: Andtech.Common.Log.WriteLine(Andtech.Common.Verbosity)
+  nameWithType: Log.WriteLine(Verbosity)
+- uid: Andtech.Common.Log.WriteLine(System.Object,Andtech.Common.Verbosity)
+  name: WriteLine(Object, Verbosity)
+  href: api/Andtech.Common.Log.html#Andtech_Common_Log_WriteLine_System_Object_Andtech_Common_Verbosity_
+  commentId: M:Andtech.Common.Log.WriteLine(System.Object,Andtech.Common.Verbosity)
+  fullName: Andtech.Common.Log.WriteLine(System.Object, Andtech.Common.Verbosity)
+  nameWithType: Log.WriteLine(Object, Verbosity)
+- uid: Andtech.Common.Log.WriteLine(System.Object,ConsoleColor,Andtech.Common.Verbosity)
+  name: WriteLine(Object, ConsoleColor, Verbosity)
+  href: api/Andtech.Common.Log.html#Andtech_Common_Log_WriteLine_System_Object_ConsoleColor_Andtech_Common_Verbosity_
+  commentId: M:Andtech.Common.Log.WriteLine(System.Object,ConsoleColor,Andtech.Common.Verbosity)
+  fullName: Andtech.Common.Log.WriteLine(System.Object, ConsoleColor, Andtech.Common.Verbosity)
+  nameWithType: Log.WriteLine(Object, ConsoleColor, Verbosity)
+- uid: Andtech.Common.Log.WriteLine*
+  name: WriteLine
+  href: api/Andtech.Common.Log.html#Andtech_Common_Log_WriteLine_
+  commentId: Overload:Andtech.Common.Log.WriteLine
+  isSpec: "True"
+  fullName: Andtech.Common.Log.WriteLine
+  nameWithType: Log.WriteLine
+- uid: Andtech.Common.LogWriter
+  name: LogWriter
+  href: api/Andtech.Common.LogWriter.html
+  commentId: T:Andtech.Common.LogWriter
+  fullName: Andtech.Common.LogWriter
+  nameWithType: LogWriter
+- uid: Andtech.Common.LogWriter.#ctor(TextWriter)
+  name: LogWriter(TextWriter)
+  href: api/Andtech.Common.LogWriter.html#Andtech_Common_LogWriter__ctor_TextWriter_
+  commentId: M:Andtech.Common.LogWriter.#ctor(TextWriter)
+  fullName: Andtech.Common.LogWriter.LogWriter(TextWriter)
+  nameWithType: LogWriter.LogWriter(TextWriter)
+- uid: Andtech.Common.LogWriter.#ctor*
+  name: LogWriter
+  href: api/Andtech.Common.LogWriter.html#Andtech_Common_LogWriter__ctor_
+  commentId: Overload:Andtech.Common.LogWriter.#ctor
+  isSpec: "True"
+  fullName: Andtech.Common.LogWriter.LogWriter
+  nameWithType: LogWriter.LogWriter
+- uid: Andtech.Common.LogWriter.Write(Andtech.Common.Verbosity)
+  name: Write(Verbosity)
+  href: api/Andtech.Common.LogWriter.html#Andtech_Common_LogWriter_Write_Andtech_Common_Verbosity_
+  commentId: M:Andtech.Common.LogWriter.Write(Andtech.Common.Verbosity)
+  fullName: Andtech.Common.LogWriter.Write(Andtech.Common.Verbosity)
+  nameWithType: LogWriter.Write(Verbosity)
+- uid: Andtech.Common.LogWriter.Write(System.Object,Andtech.Common.Verbosity)
+  name: Write(Object, Verbosity)
+  href: api/Andtech.Common.LogWriter.html#Andtech_Common_LogWriter_Write_System_Object_Andtech_Common_Verbosity_
+  commentId: M:Andtech.Common.LogWriter.Write(System.Object,Andtech.Common.Verbosity)
+  fullName: Andtech.Common.LogWriter.Write(System.Object, Andtech.Common.Verbosity)
+  nameWithType: LogWriter.Write(Object, Verbosity)
+- uid: Andtech.Common.LogWriter.Write(System.Object,ConsoleColor,Andtech.Common.Verbosity)
+  name: Write(Object, ConsoleColor, Verbosity)
+  href: api/Andtech.Common.LogWriter.html#Andtech_Common_LogWriter_Write_System_Object_ConsoleColor_Andtech_Common_Verbosity_
+  commentId: M:Andtech.Common.LogWriter.Write(System.Object,ConsoleColor,Andtech.Common.Verbosity)
+  fullName: Andtech.Common.LogWriter.Write(System.Object, ConsoleColor, Andtech.Common.Verbosity)
+  nameWithType: LogWriter.Write(Object, ConsoleColor, Verbosity)
+- uid: Andtech.Common.LogWriter.Write*
+  name: Write
+  href: api/Andtech.Common.LogWriter.html#Andtech_Common_LogWriter_Write_
+  commentId: Overload:Andtech.Common.LogWriter.Write
+  isSpec: "True"
+  fullName: Andtech.Common.LogWriter.Write
+  nameWithType: LogWriter.Write
+- uid: Andtech.Common.LogWriter.WriteLine(Andtech.Common.Verbosity)
+  name: WriteLine(Verbosity)
+  href: api/Andtech.Common.LogWriter.html#Andtech_Common_LogWriter_WriteLine_Andtech_Common_Verbosity_
+  commentId: M:Andtech.Common.LogWriter.WriteLine(Andtech.Common.Verbosity)
+  fullName: Andtech.Common.LogWriter.WriteLine(Andtech.Common.Verbosity)
+  nameWithType: LogWriter.WriteLine(Verbosity)
+- uid: Andtech.Common.LogWriter.WriteLine(System.Object,Andtech.Common.Verbosity)
+  name: WriteLine(Object, Verbosity)
+  href: api/Andtech.Common.LogWriter.html#Andtech_Common_LogWriter_WriteLine_System_Object_Andtech_Common_Verbosity_
+  commentId: M:Andtech.Common.LogWriter.WriteLine(System.Object,Andtech.Common.Verbosity)
+  fullName: Andtech.Common.LogWriter.WriteLine(System.Object, Andtech.Common.Verbosity)
+  nameWithType: LogWriter.WriteLine(Object, Verbosity)
+- uid: Andtech.Common.LogWriter.WriteLine(System.Object,ConsoleColor,Andtech.Common.Verbosity)
+  name: WriteLine(Object, ConsoleColor, Verbosity)
+  href: api/Andtech.Common.LogWriter.html#Andtech_Common_LogWriter_WriteLine_System_Object_ConsoleColor_Andtech_Common_Verbosity_
+  commentId: M:Andtech.Common.LogWriter.WriteLine(System.Object,ConsoleColor,Andtech.Common.Verbosity)
+  fullName: Andtech.Common.LogWriter.WriteLine(System.Object, ConsoleColor, Andtech.Common.Verbosity)
+  nameWithType: LogWriter.WriteLine(Object, ConsoleColor, Verbosity)
+- uid: Andtech.Common.LogWriter.WriteLine*
+  name: WriteLine
+  href: api/Andtech.Common.LogWriter.html#Andtech_Common_LogWriter_WriteLine_
+  commentId: Overload:Andtech.Common.LogWriter.WriteLine
+  isSpec: "True"
+  fullName: Andtech.Common.LogWriter.WriteLine
+  nameWithType: LogWriter.WriteLine
+- uid: Andtech.Common.ParseUtility
+  name: ParseUtility
+  href: api/Andtech.Common.ParseUtility.html
+  commentId: T:Andtech.Common.ParseUtility
+  fullName: Andtech.Common.ParseUtility
+  nameWithType: ParseUtility
+- uid: Andtech.Common.ParseUtility.GlobToRegex(System.String)
+  name: GlobToRegex(String)
+  href: api/Andtech.Common.ParseUtility.html#Andtech_Common_ParseUtility_GlobToRegex_System_String_
+  commentId: M:Andtech.Common.ParseUtility.GlobToRegex(System.String)
+  fullName: Andtech.Common.ParseUtility.GlobToRegex(System.String)
+  nameWithType: ParseUtility.GlobToRegex(String)
+- uid: Andtech.Common.ParseUtility.GlobToRegex*
+  name: GlobToRegex
+  href: api/Andtech.Common.ParseUtility.html#Andtech_Common_ParseUtility_GlobToRegex_
+  commentId: Overload:Andtech.Common.ParseUtility.GlobToRegex
+  isSpec: "True"
+  fullName: Andtech.Common.ParseUtility.GlobToRegex
+  nameWithType: ParseUtility.GlobToRegex
+- uid: Andtech.Common.ParseUtility.Http(System.String)
+  name: Http(String)
+  href: api/Andtech.Common.ParseUtility.html#Andtech_Common_ParseUtility_Http_System_String_
+  commentId: M:Andtech.Common.ParseUtility.Http(System.String)
+  fullName: Andtech.Common.ParseUtility.Http(System.String)
+  nameWithType: ParseUtility.Http(String)
+- uid: Andtech.Common.ParseUtility.Http*
+  name: Http
+  href: api/Andtech.Common.ParseUtility.html#Andtech_Common_ParseUtility_Http_
+  commentId: Overload:Andtech.Common.ParseUtility.Http
+  isSpec: "True"
+  fullName: Andtech.Common.ParseUtility.Http
+  nameWithType: ParseUtility.Http
+- uid: Andtech.Common.ParseUtility.Https(System.String)
+  name: Https(String)
+  href: api/Andtech.Common.ParseUtility.html#Andtech_Common_ParseUtility_Https_System_String_
+  commentId: M:Andtech.Common.ParseUtility.Https(System.String)
+  fullName: Andtech.Common.ParseUtility.Https(System.String)
+  nameWithType: ParseUtility.Https(String)
+- uid: Andtech.Common.ParseUtility.Https*
+  name: Https
+  href: api/Andtech.Common.ParseUtility.html#Andtech_Common_ParseUtility_Https_
+  commentId: Overload:Andtech.Common.ParseUtility.Https
+  isSpec: "True"
+  fullName: Andtech.Common.ParseUtility.Https
+  nameWithType: ParseUtility.Https
+- uid: Andtech.Common.ParseUtility.IPEndPoint(System.String)
+  name: IPEndPoint(String)
+  href: api/Andtech.Common.ParseUtility.html#Andtech_Common_ParseUtility_IPEndPoint_System_String_
+  commentId: M:Andtech.Common.ParseUtility.IPEndPoint(System.String)
+  fullName: Andtech.Common.ParseUtility.IPEndPoint(System.String)
+  nameWithType: ParseUtility.IPEndPoint(String)
+- uid: Andtech.Common.ParseUtility.IPEndPoint*
+  name: IPEndPoint
+  href: api/Andtech.Common.ParseUtility.html#Andtech_Common_ParseUtility_IPEndPoint_
+  commentId: Overload:Andtech.Common.ParseUtility.IPEndPoint
+  isSpec: "True"
+  fullName: Andtech.Common.ParseUtility.IPEndPoint
+  nameWithType: ParseUtility.IPEndPoint
+- uid: Andtech.Common.ParseUtility.QuotedSplit(System.String)
+  name: QuotedSplit(String)
+  href: api/Andtech.Common.ParseUtility.html#Andtech_Common_ParseUtility_QuotedSplit_System_String_
+  commentId: M:Andtech.Common.ParseUtility.QuotedSplit(System.String)
+  fullName: Andtech.Common.ParseUtility.QuotedSplit(System.String)
+  nameWithType: ParseUtility.QuotedSplit(String)
+- uid: Andtech.Common.ParseUtility.QuotedSplit*
+  name: QuotedSplit
+  href: api/Andtech.Common.ParseUtility.html#Andtech_Common_ParseUtility_QuotedSplit_
+  commentId: Overload:Andtech.Common.ParseUtility.QuotedSplit
+  isSpec: "True"
+  fullName: Andtech.Common.ParseUtility.QuotedSplit
+  nameWithType: ParseUtility.QuotedSplit
+- uid: Andtech.Common.ShellUtility
+  name: ShellUtility
+  href: api/Andtech.Common.ShellUtility.html
+  commentId: T:Andtech.Common.ShellUtility
+  fullName: Andtech.Common.ShellUtility
+  nameWithType: ShellUtility
+- uid: Andtech.Common.ShellUtility.Copy(System.String,System.String,System.Boolean)
+  name: Copy(String, String, Boolean)
+  href: api/Andtech.Common.ShellUtility.html#Andtech_Common_ShellUtility_Copy_System_String_System_String_System_Boolean_
+  commentId: M:Andtech.Common.ShellUtility.Copy(System.String,System.String,System.Boolean)
+  fullName: Andtech.Common.ShellUtility.Copy(System.String, System.String, System.Boolean)
+  nameWithType: ShellUtility.Copy(String, String, Boolean)
+- uid: Andtech.Common.ShellUtility.Copy*
+  name: Copy
+  href: api/Andtech.Common.ShellUtility.html#Andtech_Common_ShellUtility_Copy_
+  commentId: Overload:Andtech.Common.ShellUtility.Copy
+  isSpec: "True"
+  fullName: Andtech.Common.ShellUtility.Copy
+  nameWithType: ShellUtility.Copy
+- uid: Andtech.Common.ShellUtility.Find(System.String,System.String,System.String@,Andtech.Common.FindOptions)
+  name: Find(String, String, out String, FindOptions)
+  href: api/Andtech.Common.ShellUtility.html#Andtech_Common_ShellUtility_Find_System_String_System_String_System_String__Andtech_Common_FindOptions_
+  commentId: M:Andtech.Common.ShellUtility.Find(System.String,System.String,System.String@,Andtech.Common.FindOptions)
+  name.vb: Find(String, String, ByRef String, FindOptions)
+  fullName: Andtech.Common.ShellUtility.Find(System.String, System.String, out System.String, Andtech.Common.FindOptions)
+  fullName.vb: Andtech.Common.ShellUtility.Find(System.String, System.String, ByRef System.String, Andtech.Common.FindOptions)
+  nameWithType: ShellUtility.Find(String, String, out String, FindOptions)
+  nameWithType.vb: ShellUtility.Find(String, String, ByRef String, FindOptions)
+- uid: Andtech.Common.ShellUtility.Find*
+  name: Find
+  href: api/Andtech.Common.ShellUtility.html#Andtech_Common_ShellUtility_Find_
+  commentId: Overload:Andtech.Common.ShellUtility.Find
+  isSpec: "True"
+  fullName: Andtech.Common.ShellUtility.Find
+  nameWithType: ShellUtility.Find
+- uid: Andtech.Common.ShellUtility.Move(System.String,System.String,System.Boolean)
+  name: Move(String, String, Boolean)
+  href: api/Andtech.Common.ShellUtility.html#Andtech_Common_ShellUtility_Move_System_String_System_String_System_Boolean_
+  commentId: M:Andtech.Common.ShellUtility.Move(System.String,System.String,System.Boolean)
+  fullName: Andtech.Common.ShellUtility.Move(System.String, System.String, System.Boolean)
+  nameWithType: ShellUtility.Move(String, String, Boolean)
+- uid: Andtech.Common.ShellUtility.Move*
+  name: Move
+  href: api/Andtech.Common.ShellUtility.html#Andtech_Common_ShellUtility_Move_
+  commentId: Overload:Andtech.Common.ShellUtility.Move
+  isSpec: "True"
+  fullName: Andtech.Common.ShellUtility.Move
+  nameWithType: ShellUtility.Move
+- uid: Andtech.Common.ShellUtility.OpenBrowser(System.String)
+  name: OpenBrowser(String)
+  href: api/Andtech.Common.ShellUtility.html#Andtech_Common_ShellUtility_OpenBrowser_System_String_
+  commentId: M:Andtech.Common.ShellUtility.OpenBrowser(System.String)
+  fullName: Andtech.Common.ShellUtility.OpenBrowser(System.String)
+  nameWithType: ShellUtility.OpenBrowser(String)
+- uid: Andtech.Common.ShellUtility.OpenBrowser*
+  name: OpenBrowser
+  href: api/Andtech.Common.ShellUtility.html#Andtech_Common_ShellUtility_OpenBrowser_
+  commentId: Overload:Andtech.Common.ShellUtility.OpenBrowser
+  isSpec: "True"
+  fullName: Andtech.Common.ShellUtility.OpenBrowser
+  nameWithType: ShellUtility.OpenBrowser
+- uid: Andtech.Common.ShellUtility.RunInDirectory(System.String,Action)
+  name: RunInDirectory(String, Action)
+  href: api/Andtech.Common.ShellUtility.html#Andtech_Common_ShellUtility_RunInDirectory_System_String_Action_
+  commentId: M:Andtech.Common.ShellUtility.RunInDirectory(System.String,Action)
+  fullName: Andtech.Common.ShellUtility.RunInDirectory(System.String, Action)
+  nameWithType: ShellUtility.RunInDirectory(String, Action)
+- uid: Andtech.Common.ShellUtility.RunInDirectory*
+  name: RunInDirectory
+  href: api/Andtech.Common.ShellUtility.html#Andtech_Common_ShellUtility_RunInDirectory_
+  commentId: Overload:Andtech.Common.ShellUtility.RunInDirectory
+  isSpec: "True"
+  fullName: Andtech.Common.ShellUtility.RunInDirectory
+  nameWithType: ShellUtility.RunInDirectory
+- uid: Andtech.Common.Verbosity
+  name: Verbosity
+  href: api/Andtech.Common.Verbosity.html
+  commentId: T:Andtech.Common.Verbosity
+  fullName: Andtech.Common.Verbosity
+  nameWithType: Verbosity
+- uid: Andtech.Common.Verbosity.diagnostic
+  name: diagnostic
+  href: api/Andtech.Common.Verbosity.html#Andtech_Common_Verbosity_diagnostic
+  commentId: F:Andtech.Common.Verbosity.diagnostic
+  fullName: Andtech.Common.Verbosity.diagnostic
+  nameWithType: Verbosity.diagnostic
+- uid: Andtech.Common.Verbosity.minimal
+  name: minimal
+  href: api/Andtech.Common.Verbosity.html#Andtech_Common_Verbosity_minimal
+  commentId: F:Andtech.Common.Verbosity.minimal
+  fullName: Andtech.Common.Verbosity.minimal
+  nameWithType: Verbosity.minimal
+- uid: Andtech.Common.Verbosity.normal
+  name: normal
+  href: api/Andtech.Common.Verbosity.html#Andtech_Common_Verbosity_normal
+  commentId: F:Andtech.Common.Verbosity.normal
+  fullName: Andtech.Common.Verbosity.normal
+  nameWithType: Verbosity.normal
+- uid: Andtech.Common.Verbosity.quiet
+  name: quiet
+  href: api/Andtech.Common.Verbosity.html#Andtech_Common_Verbosity_quiet
+  commentId: F:Andtech.Common.Verbosity.quiet
+  fullName: Andtech.Common.Verbosity.quiet
+  nameWithType: Verbosity.quiet
+- uid: Andtech.Common.Verbosity.silly
+  name: silly
+  href: api/Andtech.Common.Verbosity.html#Andtech_Common_Verbosity_silly
+  commentId: F:Andtech.Common.Verbosity.silly
+  fullName: Andtech.Common.Verbosity.silly
+  nameWithType: Verbosity.silly
+- uid: Andtech.Common.Verbosity.verbose
+  name: verbose
+  href: api/Andtech.Common.Verbosity.html#Andtech_Common_Verbosity_verbose
+  commentId: F:Andtech.Common.Verbosity.verbose
+  fullName: Andtech.Common.Verbosity.verbose
+  nameWithType: Verbosity.verbose
