@@ -7,7 +7,7 @@
   "api/Andtech.Common.html": {
     "href": "api/Andtech.Common.html",
     "title": "Namespace Andtech.Common | Andtech",
-    "keywords": "Namespace Andtech.Common Classes Log LogWriter ParseUtility ShellUtility Enums FindOptions Verbosity"
+    "keywords": "Namespace Andtech.Common Classes LinqExtensions Log LogWriter ParseUtility ShellUtility Enums FindOptions Verbosity"
   },
   "api/Andtech.Common.Http.ApiKeyMiddleware.html": {
     "href": "api/Andtech.Common.Http.ApiKeyMiddleware.html",
@@ -18,6 +18,11 @@
     "href": "api/Andtech.Common.Http.html",
     "title": "Namespace Andtech.Common.Http | Andtech",
     "keywords": "Namespace Andtech.Common.Http Classes ApiKeyMiddleware"
+  },
+  "api/Andtech.Common.LinqExtensions.html": {
+    "href": "api/Andtech.Common.LinqExtensions.html",
+    "title": "Class LinqExtensions | Andtech",
+    "keywords": "Class LinqExtensions Inheritance System.Object LinqExtensions Namespace : Andtech.Common Assembly : cs.temp.dll.dll Syntax public static class LinqExtensions Methods TryFirst<T>(IEnumerable<T>, out T) Declaration public static bool TryFirst<T>(this IEnumerable<T> enumerable, out T value) Parameters Type Name Description IEnumerable <T> enumerable T value Returns Type Description System.Boolean Type Parameters Name Description T TryFirst<T>(IEnumerable<T>, Func<T, Boolean>, out T) Declaration public static bool TryFirst<T>(this IEnumerable<T> enumerable, Func<T, bool> predicate, out T value) Parameters Type Name Description IEnumerable <T> enumerable Func <T, System.Boolean > predicate T value Returns Type Description System.Boolean Type Parameters Name Description T TryLast<T>(IEnumerable<T>, out T) Declaration public static bool TryLast<T>(this IEnumerable<T> enumerable, out T value) Parameters Type Name Description IEnumerable <T> enumerable T value Returns Type Description System.Boolean Type Parameters Name Description T TryLast<T>(IEnumerable<T>, Func<T, Boolean>, out T) Declaration public static bool TryLast<T>(this IEnumerable<T> enumerable, Func<T, bool> predicate, out T value) Parameters Type Name Description IEnumerable <T> enumerable Func <T, System.Boolean > predicate T value Returns Type Description System.Boolean Type Parameters Name Description T"
   },
   "api/Andtech.Common.Log.html": {
     "href": "api/Andtech.Common.Log.html",

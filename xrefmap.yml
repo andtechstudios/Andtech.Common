@@ -76,6 +76,62 @@ references:
   isSpec: "True"
   fullName: Andtech.Common.Http.ApiKeyMiddleware.TestApiKey
   nameWithType: ApiKeyMiddleware.TestApiKey
+- uid: Andtech.Common.LinqExtensions
+  name: LinqExtensions
+  href: api/Andtech.Common.LinqExtensions.html
+  commentId: T:Andtech.Common.LinqExtensions
+  fullName: Andtech.Common.LinqExtensions
+  nameWithType: LinqExtensions
+- uid: Andtech.Common.LinqExtensions.TryFirst*
+  name: TryFirst
+  href: api/Andtech.Common.LinqExtensions.html#Andtech_Common_LinqExtensions_TryFirst_
+  commentId: Overload:Andtech.Common.LinqExtensions.TryFirst
+  isSpec: "True"
+  fullName: Andtech.Common.LinqExtensions.TryFirst
+  nameWithType: LinqExtensions.TryFirst
+- uid: Andtech.Common.LinqExtensions.TryFirst``1(IEnumerable{``0},``0@)
+  name: TryFirst<T>(IEnumerable<T>, out T)
+  href: api/Andtech.Common.LinqExtensions.html#Andtech_Common_LinqExtensions_TryFirst__1_IEnumerable___0____0__
+  commentId: M:Andtech.Common.LinqExtensions.TryFirst``1(IEnumerable{``0},``0@)
+  name.vb: TryFirst(Of T)(IEnumerable(Of T), ByRef T)
+  fullName: Andtech.Common.LinqExtensions.TryFirst<T>(IEnumerable<T>, out T)
+  fullName.vb: Andtech.Common.LinqExtensions.TryFirst(Of T)(IEnumerable(Of T), ByRef T)
+  nameWithType: LinqExtensions.TryFirst<T>(IEnumerable<T>, out T)
+  nameWithType.vb: LinqExtensions.TryFirst(Of T)(IEnumerable(Of T), ByRef T)
+- uid: Andtech.Common.LinqExtensions.TryFirst``1(IEnumerable{``0},Func{``0,System.Boolean},``0@)
+  name: TryFirst<T>(IEnumerable<T>, Func<T, Boolean>, out T)
+  href: api/Andtech.Common.LinqExtensions.html#Andtech_Common_LinqExtensions_TryFirst__1_IEnumerable___0__Func___0_System_Boolean____0__
+  commentId: M:Andtech.Common.LinqExtensions.TryFirst``1(IEnumerable{``0},Func{``0,System.Boolean},``0@)
+  name.vb: TryFirst(Of T)(IEnumerable(Of T), Func(Of T, Boolean), ByRef T)
+  fullName: Andtech.Common.LinqExtensions.TryFirst<T>(IEnumerable<T>, Func<T, System.Boolean>, out T)
+  fullName.vb: Andtech.Common.LinqExtensions.TryFirst(Of T)(IEnumerable(Of T), Func(Of T, System.Boolean), ByRef T)
+  nameWithType: LinqExtensions.TryFirst<T>(IEnumerable<T>, Func<T, Boolean>, out T)
+  nameWithType.vb: LinqExtensions.TryFirst(Of T)(IEnumerable(Of T), Func(Of T, Boolean), ByRef T)
+- uid: Andtech.Common.LinqExtensions.TryLast*
+  name: TryLast
+  href: api/Andtech.Common.LinqExtensions.html#Andtech_Common_LinqExtensions_TryLast_
+  commentId: Overload:Andtech.Common.LinqExtensions.TryLast
+  isSpec: "True"
+  fullName: Andtech.Common.LinqExtensions.TryLast
+  nameWithType: LinqExtensions.TryLast
+- uid: Andtech.Common.LinqExtensions.TryLast``1(IEnumerable{``0},``0@)
+  name: TryLast<T>(IEnumerable<T>, out T)
+  href: api/Andtech.Common.LinqExtensions.html#Andtech_Common_LinqExtensions_TryLast__1_IEnumerable___0____0__
+  commentId: M:Andtech.Common.LinqExtensions.TryLast``1(IEnumerable{``0},``0@)
+  name.vb: TryLast(Of T)(IEnumerable(Of T), ByRef T)
+  fullName: Andtech.Common.LinqExtensions.TryLast<T>(IEnumerable<T>, out T)
+  fullName.vb: Andtech.Common.LinqExtensions.TryLast(Of T)(IEnumerable(Of T), ByRef T)
+  nameWithType: LinqExtensions.TryLast<T>(IEnumerable<T>, out T)
+  nameWithType.vb: LinqExtensions.TryLast(Of T)(IEnumerable(Of T), ByRef T)
+- uid: Andtech.Common.LinqExtensions.TryLast``1(IEnumerable{``0},Func{``0,System.Boolean},``0@)
+  name: TryLast<T>(IEnumerable<T>, Func<T, Boolean>, out T)
+  href: api/Andtech.Common.LinqExtensions.html#Andtech_Common_LinqExtensions_TryLast__1_IEnumerable___0__Func___0_System_Boolean____0__
+  commentId: M:Andtech.Common.LinqExtensions.TryLast``1(IEnumerable{``0},Func{``0,System.Boolean},``0@)
+  name.vb: TryLast(Of T)(IEnumerable(Of T), Func(Of T, Boolean), ByRef T)
+  fullName: Andtech.Common.LinqExtensions.TryLast<T>(IEnumerable<T>, Func<T, System.Boolean>, out T)
+  fullName.vb: Andtech.Common.LinqExtensions.TryLast(Of T)(IEnumerable(Of T), Func(Of T, System.Boolean), ByRef T)
+  nameWithType: LinqExtensions.TryLast<T>(IEnumerable<T>, Func<T, Boolean>, out T)
+  nameWithType.vb: LinqExtensions.TryLast(Of T)(IEnumerable(Of T), Func(Of T, Boolean), ByRef T)
 - uid: Andtech.Common.Log
   name: Log
   href: api/Andtech.Common.Log.html
