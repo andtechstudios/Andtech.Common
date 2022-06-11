@@ -14,6 +14,7 @@ jobs:
           docfx build Documentation/docfx.json --output public
       - uses: s0/git-publish-subdir-action@develop
         env:
+          REPO: self
           BRANCH: gh-pages
           FOLDER: public
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
