@@ -3,7 +3,7 @@
 namespace Andtech.Common
 {
 
-	public class DryRun
+	public static class DryRun
 	{
 		public static bool IsDryRun { get; set; } = false;
 
