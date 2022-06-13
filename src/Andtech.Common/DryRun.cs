@@ -18,6 +18,9 @@ namespace Andtech.Common
 			return true;
 		}
 
+		public static bool TryExecute(Action action, string message)
+			=> TryExecute(action, message, Verbosity.normal);
+
 		public static bool TryExecute(Action action, string message = null, Verbosity verbosity = Verbosity.normal)
 		{
 			if (IsDryRun)
