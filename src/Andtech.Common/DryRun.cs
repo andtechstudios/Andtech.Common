@@ -22,11 +22,11 @@ namespace Andtech.Common
 		{
 			if (IsDryRun)
 			{
-				Log.WriteLine(message, verbosity);
+				Log.WriteLine($"[DRY RUN] {message}", verbosity);
 			}
 			else
 			{
-				Log.WriteLine($"[DRY RUN] {message}", verbosity);
+				Log.WriteLine(message, verbosity);
 			}
 
 			return TryExecute(action);
@@ -36,11 +36,11 @@ namespace Andtech.Common
 		{
 			if (IsDryRun)
 			{
-				Log.WriteLine(message, color, verbosity);
+				Log.WriteLine($"[DRY RUN] {message}", color, verbosity);
 			}
 			else
 			{
-				Log.WriteLine($"[DRY RUN] {message}", color, verbosity);
+				Log.WriteLine(message, color, verbosity);
 			}
 
 			return TryExecute(action);
