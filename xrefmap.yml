@@ -7,6 +7,50 @@ references:
   commentId: N:Andtech.Common
   fullName: Andtech.Common
   nameWithType: Andtech.Common
+- uid: Andtech.Common.DryRun
+  name: DryRun
+  href: api/Andtech.Common.DryRun.html
+  commentId: T:Andtech.Common.DryRun
+  fullName: Andtech.Common.DryRun
+  nameWithType: DryRun
+- uid: Andtech.Common.DryRun.IsDryRun
+  name: IsDryRun
+  href: api/Andtech.Common.DryRun.html#Andtech_Common_DryRun_IsDryRun
+  commentId: P:Andtech.Common.DryRun.IsDryRun
+  fullName: Andtech.Common.DryRun.IsDryRun
+  nameWithType: DryRun.IsDryRun
+- uid: Andtech.Common.DryRun.IsDryRun*
+  name: IsDryRun
+  href: api/Andtech.Common.DryRun.html#Andtech_Common_DryRun_IsDryRun_
+  commentId: Overload:Andtech.Common.DryRun.IsDryRun
+  isSpec: "True"
+  fullName: Andtech.Common.DryRun.IsDryRun
+  nameWithType: DryRun.IsDryRun
+- uid: Andtech.Common.DryRun.TryExecute(Action)
+  name: TryExecute(Action)
+  href: api/Andtech.Common.DryRun.html#Andtech_Common_DryRun_TryExecute_Action_
+  commentId: M:Andtech.Common.DryRun.TryExecute(Action)
+  fullName: Andtech.Common.DryRun.TryExecute(Action)
+  nameWithType: DryRun.TryExecute(Action)
+- uid: Andtech.Common.DryRun.TryExecute(Action,System.String,Andtech.Common.Verbosity)
+  name: TryExecute(Action, String, Verbosity)
+  href: api/Andtech.Common.DryRun.html#Andtech_Common_DryRun_TryExecute_Action_System_String_Andtech_Common_Verbosity_
+  commentId: M:Andtech.Common.DryRun.TryExecute(Action,System.String,Andtech.Common.Verbosity)
+  fullName: Andtech.Common.DryRun.TryExecute(Action, System.String, Andtech.Common.Verbosity)
+  nameWithType: DryRun.TryExecute(Action, String, Verbosity)
+- uid: Andtech.Common.DryRun.TryExecute(Action,System.String,ConsoleColor,Andtech.Common.Verbosity)
+  name: TryExecute(Action, String, ConsoleColor, Verbosity)
+  href: api/Andtech.Common.DryRun.html#Andtech_Common_DryRun_TryExecute_Action_System_String_ConsoleColor_Andtech_Common_Verbosity_
+  commentId: M:Andtech.Common.DryRun.TryExecute(Action,System.String,ConsoleColor,Andtech.Common.Verbosity)
+  fullName: Andtech.Common.DryRun.TryExecute(Action, System.String, ConsoleColor, Andtech.Common.Verbosity)
+  nameWithType: DryRun.TryExecute(Action, String, ConsoleColor, Verbosity)
+- uid: Andtech.Common.DryRun.TryExecute*
+  name: TryExecute
+  href: api/Andtech.Common.DryRun.html#Andtech_Common_DryRun_TryExecute_
+  commentId: Overload:Andtech.Common.DryRun.TryExecute
+  isSpec: "True"
+  fullName: Andtech.Common.DryRun.TryExecute
+  nameWithType: DryRun.TryExecute
 - uid: Andtech.Common.FindOptions
   name: FindOptions
   href: api/Andtech.Common.FindOptions.html

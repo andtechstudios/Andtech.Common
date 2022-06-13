@@ -14,6 +14,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Andtech.Common.DryRun.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Andtech.Common.DryRun.html",
+          "hash": "ixy3czO0goF3Ze4hwJQ0hw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Andtech.Common.FindOptions.yml",
       "output": {
         ".html": {
@@ -126,7 +138,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Andtech.Common.html",
-          "hash": "06mZ6iG/ZuItFWnY523sRw=="
+          "hash": "2dCxxiDoSA+WNiNGCYintQ=="
         }
       },
       "is_incremental": false,
@@ -138,7 +150,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "zvHGqClPrSxpcq4f2a070A=="
+          "hash": "T3CIN7VsoB2KT4CE6ebqWA=="
         }
       },
       "is_incremental": false,
@@ -284,7 +296,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 10,
+          "total_file_count": 11,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
