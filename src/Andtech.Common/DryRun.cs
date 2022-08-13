@@ -5,7 +5,9 @@ namespace Andtech.Common
 
 	public static class DryRun
 	{
-		public static bool IsDryRun { get; set; } = false;
+		public static bool IsDryRun { get; set; } =
+			Environment.GetEnvironmentVariable("DRY_RUN").Equals("1")
+			|| Environment.GetEnvironmentVariable("DRY_RUN").Equals("TRUE", StringComparison.InvariantCultureIgnoreCase);
 
 		public static bool TryExecute(Action action)
 		{
