@@ -26,29 +26,29 @@ references:
   isSpec: "True"
   fullName: Andtech.Common.DryRun.IsDryRun
   nameWithType: DryRun.IsDryRun
-- uid: Andtech.Common.DryRun.TryExecute(Action)
+- uid: Andtech.Common.DryRun.TryExecute(System.Action)
   name: TryExecute(Action)
-  href: api/Andtech.Common.DryRun.html#Andtech_Common_DryRun_TryExecute_Action_
-  commentId: M:Andtech.Common.DryRun.TryExecute(Action)
-  fullName: Andtech.Common.DryRun.TryExecute(Action)
+  href: api/Andtech.Common.DryRun.html#Andtech_Common_DryRun_TryExecute_System_Action_
+  commentId: M:Andtech.Common.DryRun.TryExecute(System.Action)
+  fullName: Andtech.Common.DryRun.TryExecute(System.Action)
   nameWithType: DryRun.TryExecute(Action)
-- uid: Andtech.Common.DryRun.TryExecute(Action,System.String)
+- uid: Andtech.Common.DryRun.TryExecute(System.Action,System.String)
   name: TryExecute(Action, String)
-  href: api/Andtech.Common.DryRun.html#Andtech_Common_DryRun_TryExecute_Action_System_String_
-  commentId: M:Andtech.Common.DryRun.TryExecute(Action,System.String)
-  fullName: Andtech.Common.DryRun.TryExecute(Action, System.String)
+  href: api/Andtech.Common.DryRun.html#Andtech_Common_DryRun_TryExecute_System_Action_System_String_
+  commentId: M:Andtech.Common.DryRun.TryExecute(System.Action,System.String)
+  fullName: Andtech.Common.DryRun.TryExecute(System.Action, System.String)
   nameWithType: DryRun.TryExecute(Action, String)
-- uid: Andtech.Common.DryRun.TryExecute(Action,System.String,Andtech.Common.Verbosity)
+- uid: Andtech.Common.DryRun.TryExecute(System.Action,System.String,Andtech.Common.Verbosity)
   name: TryExecute(Action, String, Verbosity)
-  href: api/Andtech.Common.DryRun.html#Andtech_Common_DryRun_TryExecute_Action_System_String_Andtech_Common_Verbosity_
-  commentId: M:Andtech.Common.DryRun.TryExecute(Action,System.String,Andtech.Common.Verbosity)
-  fullName: Andtech.Common.DryRun.TryExecute(Action, System.String, Andtech.Common.Verbosity)
+  href: api/Andtech.Common.DryRun.html#Andtech_Common_DryRun_TryExecute_System_Action_System_String_Andtech_Common_Verbosity_
+  commentId: M:Andtech.Common.DryRun.TryExecute(System.Action,System.String,Andtech.Common.Verbosity)
+  fullName: Andtech.Common.DryRun.TryExecute(System.Action, System.String, Andtech.Common.Verbosity)
   nameWithType: DryRun.TryExecute(Action, String, Verbosity)
-- uid: Andtech.Common.DryRun.TryExecute(Action,System.String,ConsoleColor,Andtech.Common.Verbosity)
+- uid: Andtech.Common.DryRun.TryExecute(System.Action,System.String,System.ConsoleColor,Andtech.Common.Verbosity)
   name: TryExecute(Action, String, ConsoleColor, Verbosity)
-  href: api/Andtech.Common.DryRun.html#Andtech_Common_DryRun_TryExecute_Action_System_String_ConsoleColor_Andtech_Common_Verbosity_
-  commentId: M:Andtech.Common.DryRun.TryExecute(Action,System.String,ConsoleColor,Andtech.Common.Verbosity)
-  fullName: Andtech.Common.DryRun.TryExecute(Action, System.String, ConsoleColor, Andtech.Common.Verbosity)
+  href: api/Andtech.Common.DryRun.html#Andtech_Common_DryRun_TryExecute_System_Action_System_String_System_ConsoleColor_Andtech_Common_Verbosity_
+  commentId: M:Andtech.Common.DryRun.TryExecute(System.Action,System.String,System.ConsoleColor,Andtech.Common.Verbosity)
+  fullName: Andtech.Common.DryRun.TryExecute(System.Action, System.String, System.ConsoleColor, Andtech.Common.Verbosity)
   nameWithType: DryRun.TryExecute(Action, String, ConsoleColor, Verbosity)
 - uid: Andtech.Common.DryRun.TryExecute*
   name: TryExecute
@@ -148,13 +148,13 @@ references:
   fullName.vb: Andtech.Common.LinqExtensions.TryFirst(Of T)(IEnumerable(Of T), ByRef T)
   nameWithType: LinqExtensions.TryFirst<T>(IEnumerable<T>, out T)
   nameWithType.vb: LinqExtensions.TryFirst(Of T)(IEnumerable(Of T), ByRef T)
-- uid: Andtech.Common.LinqExtensions.TryFirst``1(IEnumerable{``0},Func{``0,System.Boolean},``0@)
+- uid: Andtech.Common.LinqExtensions.TryFirst``1(IEnumerable{``0},System.Func{``0,System.Boolean},``0@)
   name: TryFirst<T>(IEnumerable<T>, Func<T, Boolean>, out T)
-  href: api/Andtech.Common.LinqExtensions.html#Andtech_Common_LinqExtensions_TryFirst__1_IEnumerable___0__Func___0_System_Boolean____0__
-  commentId: M:Andtech.Common.LinqExtensions.TryFirst``1(IEnumerable{``0},Func{``0,System.Boolean},``0@)
+  href: api/Andtech.Common.LinqExtensions.html#Andtech_Common_LinqExtensions_TryFirst__1_IEnumerable___0__System_Func___0_System_Boolean____0__
+  commentId: M:Andtech.Common.LinqExtensions.TryFirst``1(IEnumerable{``0},System.Func{``0,System.Boolean},``0@)
   name.vb: TryFirst(Of T)(IEnumerable(Of T), Func(Of T, Boolean), ByRef T)
-  fullName: Andtech.Common.LinqExtensions.TryFirst<T>(IEnumerable<T>, Func<T, System.Boolean>, out T)
-  fullName.vb: Andtech.Common.LinqExtensions.TryFirst(Of T)(IEnumerable(Of T), Func(Of T, System.Boolean), ByRef T)
+  fullName: Andtech.Common.LinqExtensions.TryFirst<T>(IEnumerable<T>, System.Func<T, System.Boolean>, out T)
+  fullName.vb: Andtech.Common.LinqExtensions.TryFirst(Of T)(IEnumerable(Of T), System.Func(Of T, System.Boolean), ByRef T)
   nameWithType: LinqExtensions.TryFirst<T>(IEnumerable<T>, Func<T, Boolean>, out T)
   nameWithType.vb: LinqExtensions.TryFirst(Of T)(IEnumerable(Of T), Func(Of T, Boolean), ByRef T)
 - uid: Andtech.Common.LinqExtensions.TryLast*
@@ -173,13 +173,13 @@ references:
   fullName.vb: Andtech.Common.LinqExtensions.TryLast(Of T)(IEnumerable(Of T), ByRef T)
   nameWithType: LinqExtensions.TryLast<T>(IEnumerable<T>, out T)
   nameWithType.vb: LinqExtensions.TryLast(Of T)(IEnumerable(Of T), ByRef T)
-- uid: Andtech.Common.LinqExtensions.TryLast``1(IEnumerable{``0},Func{``0,System.Boolean},``0@)
+- uid: Andtech.Common.LinqExtensions.TryLast``1(IEnumerable{``0},System.Func{``0,System.Boolean},``0@)
   name: TryLast<T>(IEnumerable<T>, Func<T, Boolean>, out T)
-  href: api/Andtech.Common.LinqExtensions.html#Andtech_Common_LinqExtensions_TryLast__1_IEnumerable___0__Func___0_System_Boolean____0__
-  commentId: M:Andtech.Common.LinqExtensions.TryLast``1(IEnumerable{``0},Func{``0,System.Boolean},``0@)
+  href: api/Andtech.Common.LinqExtensions.html#Andtech_Common_LinqExtensions_TryLast__1_IEnumerable___0__System_Func___0_System_Boolean____0__
+  commentId: M:Andtech.Common.LinqExtensions.TryLast``1(IEnumerable{``0},System.Func{``0,System.Boolean},``0@)
   name.vb: TryLast(Of T)(IEnumerable(Of T), Func(Of T, Boolean), ByRef T)
-  fullName: Andtech.Common.LinqExtensions.TryLast<T>(IEnumerable<T>, Func<T, System.Boolean>, out T)
-  fullName.vb: Andtech.Common.LinqExtensions.TryLast(Of T)(IEnumerable(Of T), Func(Of T, System.Boolean), ByRef T)
+  fullName: Andtech.Common.LinqExtensions.TryLast<T>(IEnumerable<T>, System.Func<T, System.Boolean>, out T)
+  fullName.vb: Andtech.Common.LinqExtensions.TryLast(Of T)(IEnumerable(Of T), System.Func(Of T, System.Boolean), ByRef T)
   nameWithType: LinqExtensions.TryLast<T>(IEnumerable<T>, Func<T, Boolean>, out T)
   nameWithType.vb: LinqExtensions.TryLast(Of T)(IEnumerable(Of T), Func(Of T, Boolean), ByRef T)
 - uid: Andtech.Common.Log
@@ -239,11 +239,11 @@ references:
   commentId: M:Andtech.Common.Log.Write(System.Object,Andtech.Common.Verbosity)
   fullName: Andtech.Common.Log.Write(System.Object, Andtech.Common.Verbosity)
   nameWithType: Log.Write(Object, Verbosity)
-- uid: Andtech.Common.Log.Write(System.Object,ConsoleColor,Andtech.Common.Verbosity)
+- uid: Andtech.Common.Log.Write(System.Object,System.ConsoleColor,Andtech.Common.Verbosity)
   name: Write(Object, ConsoleColor, Verbosity)
-  href: api/Andtech.Common.Log.html#Andtech_Common_Log_Write_System_Object_ConsoleColor_Andtech_Common_Verbosity_
-  commentId: M:Andtech.Common.Log.Write(System.Object,ConsoleColor,Andtech.Common.Verbosity)
-  fullName: Andtech.Common.Log.Write(System.Object, ConsoleColor, Andtech.Common.Verbosity)
+  href: api/Andtech.Common.Log.html#Andtech_Common_Log_Write_System_Object_System_ConsoleColor_Andtech_Common_Verbosity_
+  commentId: M:Andtech.Common.Log.Write(System.Object,System.ConsoleColor,Andtech.Common.Verbosity)
+  fullName: Andtech.Common.Log.Write(System.Object, System.ConsoleColor, Andtech.Common.Verbosity)
   nameWithType: Log.Write(Object, ConsoleColor, Verbosity)
 - uid: Andtech.Common.Log.Write*
   name: Write
@@ -264,11 +264,11 @@ references:
   commentId: M:Andtech.Common.Log.WriteLine(System.Object,Andtech.Common.Verbosity)
   fullName: Andtech.Common.Log.WriteLine(System.Object, Andtech.Common.Verbosity)
   nameWithType: Log.WriteLine(Object, Verbosity)
-- uid: Andtech.Common.Log.WriteLine(System.Object,ConsoleColor,Andtech.Common.Verbosity)
+- uid: Andtech.Common.Log.WriteLine(System.Object,System.ConsoleColor,Andtech.Common.Verbosity)
   name: WriteLine(Object, ConsoleColor, Verbosity)
-  href: api/Andtech.Common.Log.html#Andtech_Common_Log_WriteLine_System_Object_ConsoleColor_Andtech_Common_Verbosity_
-  commentId: M:Andtech.Common.Log.WriteLine(System.Object,ConsoleColor,Andtech.Common.Verbosity)
-  fullName: Andtech.Common.Log.WriteLine(System.Object, ConsoleColor, Andtech.Common.Verbosity)
+  href: api/Andtech.Common.Log.html#Andtech_Common_Log_WriteLine_System_Object_System_ConsoleColor_Andtech_Common_Verbosity_
+  commentId: M:Andtech.Common.Log.WriteLine(System.Object,System.ConsoleColor,Andtech.Common.Verbosity)
+  fullName: Andtech.Common.Log.WriteLine(System.Object, System.ConsoleColor, Andtech.Common.Verbosity)
   nameWithType: Log.WriteLine(Object, ConsoleColor, Verbosity)
 - uid: Andtech.Common.Log.WriteLine*
   name: WriteLine
@@ -308,11 +308,11 @@ references:
   commentId: M:Andtech.Common.LogWriter.Write(System.Object,Andtech.Common.Verbosity)
   fullName: Andtech.Common.LogWriter.Write(System.Object, Andtech.Common.Verbosity)
   nameWithType: LogWriter.Write(Object, Verbosity)
-- uid: Andtech.Common.LogWriter.Write(System.Object,ConsoleColor,Andtech.Common.Verbosity)
+- uid: Andtech.Common.LogWriter.Write(System.Object,System.ConsoleColor,Andtech.Common.Verbosity)
   name: Write(Object, ConsoleColor, Verbosity)
-  href: api/Andtech.Common.LogWriter.html#Andtech_Common_LogWriter_Write_System_Object_ConsoleColor_Andtech_Common_Verbosity_
-  commentId: M:Andtech.Common.LogWriter.Write(System.Object,ConsoleColor,Andtech.Common.Verbosity)
-  fullName: Andtech.Common.LogWriter.Write(System.Object, ConsoleColor, Andtech.Common.Verbosity)
+  href: api/Andtech.Common.LogWriter.html#Andtech_Common_LogWriter_Write_System_Object_System_ConsoleColor_Andtech_Common_Verbosity_
+  commentId: M:Andtech.Common.LogWriter.Write(System.Object,System.ConsoleColor,Andtech.Common.Verbosity)
+  fullName: Andtech.Common.LogWriter.Write(System.Object, System.ConsoleColor, Andtech.Common.Verbosity)
   nameWithType: LogWriter.Write(Object, ConsoleColor, Verbosity)
 - uid: Andtech.Common.LogWriter.Write*
   name: Write
@@ -333,11 +333,11 @@ references:
   commentId: M:Andtech.Common.LogWriter.WriteLine(System.Object,Andtech.Common.Verbosity)
   fullName: Andtech.Common.LogWriter.WriteLine(System.Object, Andtech.Common.Verbosity)
   nameWithType: LogWriter.WriteLine(Object, Verbosity)
-- uid: Andtech.Common.LogWriter.WriteLine(System.Object,ConsoleColor,Andtech.Common.Verbosity)
+- uid: Andtech.Common.LogWriter.WriteLine(System.Object,System.ConsoleColor,Andtech.Common.Verbosity)
   name: WriteLine(Object, ConsoleColor, Verbosity)
-  href: api/Andtech.Common.LogWriter.html#Andtech_Common_LogWriter_WriteLine_System_Object_ConsoleColor_Andtech_Common_Verbosity_
-  commentId: M:Andtech.Common.LogWriter.WriteLine(System.Object,ConsoleColor,Andtech.Common.Verbosity)
-  fullName: Andtech.Common.LogWriter.WriteLine(System.Object, ConsoleColor, Andtech.Common.Verbosity)
+  href: api/Andtech.Common.LogWriter.html#Andtech_Common_LogWriter_WriteLine_System_Object_System_ConsoleColor_Andtech_Common_Verbosity_
+  commentId: M:Andtech.Common.LogWriter.WriteLine(System.Object,System.ConsoleColor,Andtech.Common.Verbosity)
+  fullName: Andtech.Common.LogWriter.WriteLine(System.Object, System.ConsoleColor, Andtech.Common.Verbosity)
   nameWithType: LogWriter.WriteLine(Object, ConsoleColor, Verbosity)
 - uid: Andtech.Common.LogWriter.WriteLine*
   name: WriteLine
@@ -346,151 +346,164 @@ references:
   isSpec: "True"
   fullName: Andtech.Common.LogWriter.WriteLine
   nameWithType: LogWriter.WriteLine
-- uid: Andtech.Common.ParseUtility
-  name: ParseUtility
-  href: api/Andtech.Common.ParseUtility.html
-  commentId: T:Andtech.Common.ParseUtility
-  fullName: Andtech.Common.ParseUtility
-  nameWithType: ParseUtility
-- uid: Andtech.Common.ParseUtility.GlobToRegex(System.String)
+- uid: Andtech.Common.ParseUtil
+  name: ParseUtil
+  href: api/Andtech.Common.ParseUtil.html
+  commentId: T:Andtech.Common.ParseUtil
+  fullName: Andtech.Common.ParseUtil
+  nameWithType: ParseUtil
+- uid: Andtech.Common.ParseUtil.GlobToRegex(System.String)
   name: GlobToRegex(String)
-  href: api/Andtech.Common.ParseUtility.html#Andtech_Common_ParseUtility_GlobToRegex_System_String_
-  commentId: M:Andtech.Common.ParseUtility.GlobToRegex(System.String)
-  fullName: Andtech.Common.ParseUtility.GlobToRegex(System.String)
-  nameWithType: ParseUtility.GlobToRegex(String)
-- uid: Andtech.Common.ParseUtility.GlobToRegex*
+  href: api/Andtech.Common.ParseUtil.html#Andtech_Common_ParseUtil_GlobToRegex_System_String_
+  commentId: M:Andtech.Common.ParseUtil.GlobToRegex(System.String)
+  fullName: Andtech.Common.ParseUtil.GlobToRegex(System.String)
+  nameWithType: ParseUtil.GlobToRegex(String)
+- uid: Andtech.Common.ParseUtil.GlobToRegex*
   name: GlobToRegex
-  href: api/Andtech.Common.ParseUtility.html#Andtech_Common_ParseUtility_GlobToRegex_
-  commentId: Overload:Andtech.Common.ParseUtility.GlobToRegex
+  href: api/Andtech.Common.ParseUtil.html#Andtech_Common_ParseUtil_GlobToRegex_
+  commentId: Overload:Andtech.Common.ParseUtil.GlobToRegex
   isSpec: "True"
-  fullName: Andtech.Common.ParseUtility.GlobToRegex
-  nameWithType: ParseUtility.GlobToRegex
-- uid: Andtech.Common.ParseUtility.Http(System.String)
+  fullName: Andtech.Common.ParseUtil.GlobToRegex
+  nameWithType: ParseUtil.GlobToRegex
+- uid: Andtech.Common.ParseUtil.Http(System.String)
   name: Http(String)
-  href: api/Andtech.Common.ParseUtility.html#Andtech_Common_ParseUtility_Http_System_String_
-  commentId: M:Andtech.Common.ParseUtility.Http(System.String)
-  fullName: Andtech.Common.ParseUtility.Http(System.String)
-  nameWithType: ParseUtility.Http(String)
-- uid: Andtech.Common.ParseUtility.Http*
+  href: api/Andtech.Common.ParseUtil.html#Andtech_Common_ParseUtil_Http_System_String_
+  commentId: M:Andtech.Common.ParseUtil.Http(System.String)
+  fullName: Andtech.Common.ParseUtil.Http(System.String)
+  nameWithType: ParseUtil.Http(String)
+- uid: Andtech.Common.ParseUtil.Http*
   name: Http
-  href: api/Andtech.Common.ParseUtility.html#Andtech_Common_ParseUtility_Http_
-  commentId: Overload:Andtech.Common.ParseUtility.Http
+  href: api/Andtech.Common.ParseUtil.html#Andtech_Common_ParseUtil_Http_
+  commentId: Overload:Andtech.Common.ParseUtil.Http
   isSpec: "True"
-  fullName: Andtech.Common.ParseUtility.Http
-  nameWithType: ParseUtility.Http
-- uid: Andtech.Common.ParseUtility.Https(System.String)
+  fullName: Andtech.Common.ParseUtil.Http
+  nameWithType: ParseUtil.Http
+- uid: Andtech.Common.ParseUtil.Https(System.String)
   name: Https(String)
-  href: api/Andtech.Common.ParseUtility.html#Andtech_Common_ParseUtility_Https_System_String_
-  commentId: M:Andtech.Common.ParseUtility.Https(System.String)
-  fullName: Andtech.Common.ParseUtility.Https(System.String)
-  nameWithType: ParseUtility.Https(String)
-- uid: Andtech.Common.ParseUtility.Https*
+  href: api/Andtech.Common.ParseUtil.html#Andtech_Common_ParseUtil_Https_System_String_
+  commentId: M:Andtech.Common.ParseUtil.Https(System.String)
+  fullName: Andtech.Common.ParseUtil.Https(System.String)
+  nameWithType: ParseUtil.Https(String)
+- uid: Andtech.Common.ParseUtil.Https*
   name: Https
-  href: api/Andtech.Common.ParseUtility.html#Andtech_Common_ParseUtility_Https_
-  commentId: Overload:Andtech.Common.ParseUtility.Https
+  href: api/Andtech.Common.ParseUtil.html#Andtech_Common_ParseUtil_Https_
+  commentId: Overload:Andtech.Common.ParseUtil.Https
   isSpec: "True"
-  fullName: Andtech.Common.ParseUtility.Https
-  nameWithType: ParseUtility.Https
-- uid: Andtech.Common.ParseUtility.IPEndPoint(System.String)
+  fullName: Andtech.Common.ParseUtil.Https
+  nameWithType: ParseUtil.Https
+- uid: Andtech.Common.ParseUtil.IPEndPoint(System.String)
   name: IPEndPoint(String)
-  href: api/Andtech.Common.ParseUtility.html#Andtech_Common_ParseUtility_IPEndPoint_System_String_
-  commentId: M:Andtech.Common.ParseUtility.IPEndPoint(System.String)
-  fullName: Andtech.Common.ParseUtility.IPEndPoint(System.String)
-  nameWithType: ParseUtility.IPEndPoint(String)
-- uid: Andtech.Common.ParseUtility.IPEndPoint*
+  href: api/Andtech.Common.ParseUtil.html#Andtech_Common_ParseUtil_IPEndPoint_System_String_
+  commentId: M:Andtech.Common.ParseUtil.IPEndPoint(System.String)
+  fullName: Andtech.Common.ParseUtil.IPEndPoint(System.String)
+  nameWithType: ParseUtil.IPEndPoint(String)
+- uid: Andtech.Common.ParseUtil.IPEndPoint*
   name: IPEndPoint
-  href: api/Andtech.Common.ParseUtility.html#Andtech_Common_ParseUtility_IPEndPoint_
-  commentId: Overload:Andtech.Common.ParseUtility.IPEndPoint
+  href: api/Andtech.Common.ParseUtil.html#Andtech_Common_ParseUtil_IPEndPoint_
+  commentId: Overload:Andtech.Common.ParseUtil.IPEndPoint
   isSpec: "True"
-  fullName: Andtech.Common.ParseUtility.IPEndPoint
-  nameWithType: ParseUtility.IPEndPoint
-- uid: Andtech.Common.ParseUtility.QuotedSplit(System.String)
+  fullName: Andtech.Common.ParseUtil.IPEndPoint
+  nameWithType: ParseUtil.IPEndPoint
+- uid: Andtech.Common.ParseUtil.QuotedSplit(System.String)
   name: QuotedSplit(String)
-  href: api/Andtech.Common.ParseUtility.html#Andtech_Common_ParseUtility_QuotedSplit_System_String_
-  commentId: M:Andtech.Common.ParseUtility.QuotedSplit(System.String)
-  fullName: Andtech.Common.ParseUtility.QuotedSplit(System.String)
-  nameWithType: ParseUtility.QuotedSplit(String)
-- uid: Andtech.Common.ParseUtility.QuotedSplit*
+  href: api/Andtech.Common.ParseUtil.html#Andtech_Common_ParseUtil_QuotedSplit_System_String_
+  commentId: M:Andtech.Common.ParseUtil.QuotedSplit(System.String)
+  fullName: Andtech.Common.ParseUtil.QuotedSplit(System.String)
+  nameWithType: ParseUtil.QuotedSplit(String)
+- uid: Andtech.Common.ParseUtil.QuotedSplit*
   name: QuotedSplit
-  href: api/Andtech.Common.ParseUtility.html#Andtech_Common_ParseUtility_QuotedSplit_
-  commentId: Overload:Andtech.Common.ParseUtility.QuotedSplit
+  href: api/Andtech.Common.ParseUtil.html#Andtech_Common_ParseUtil_QuotedSplit_
+  commentId: Overload:Andtech.Common.ParseUtil.QuotedSplit
   isSpec: "True"
-  fullName: Andtech.Common.ParseUtility.QuotedSplit
-  nameWithType: ParseUtility.QuotedSplit
-- uid: Andtech.Common.ShellUtility
-  name: ShellUtility
-  href: api/Andtech.Common.ShellUtility.html
-  commentId: T:Andtech.Common.ShellUtility
-  fullName: Andtech.Common.ShellUtility
-  nameWithType: ShellUtility
-- uid: Andtech.Common.ShellUtility.Copy(System.String,System.String,System.Boolean)
+  fullName: Andtech.Common.ParseUtil.QuotedSplit
+  nameWithType: ParseUtil.QuotedSplit
+- uid: Andtech.Common.ShellUtil
+  name: ShellUtil
+  href: api/Andtech.Common.ShellUtil.html
+  commentId: T:Andtech.Common.ShellUtil
+  fullName: Andtech.Common.ShellUtil
+  nameWithType: ShellUtil
+- uid: Andtech.Common.ShellUtil.Copy(System.String,System.String,System.Boolean)
   name: Copy(String, String, Boolean)
-  href: api/Andtech.Common.ShellUtility.html#Andtech_Common_ShellUtility_Copy_System_String_System_String_System_Boolean_
-  commentId: M:Andtech.Common.ShellUtility.Copy(System.String,System.String,System.Boolean)
-  fullName: Andtech.Common.ShellUtility.Copy(System.String, System.String, System.Boolean)
-  nameWithType: ShellUtility.Copy(String, String, Boolean)
-- uid: Andtech.Common.ShellUtility.Copy*
+  href: api/Andtech.Common.ShellUtil.html#Andtech_Common_ShellUtil_Copy_System_String_System_String_System_Boolean_
+  commentId: M:Andtech.Common.ShellUtil.Copy(System.String,System.String,System.Boolean)
+  fullName: Andtech.Common.ShellUtil.Copy(System.String, System.String, System.Boolean)
+  nameWithType: ShellUtil.Copy(String, String, Boolean)
+- uid: Andtech.Common.ShellUtil.Copy*
   name: Copy
-  href: api/Andtech.Common.ShellUtility.html#Andtech_Common_ShellUtility_Copy_
-  commentId: Overload:Andtech.Common.ShellUtility.Copy
+  href: api/Andtech.Common.ShellUtil.html#Andtech_Common_ShellUtil_Copy_
+  commentId: Overload:Andtech.Common.ShellUtil.Copy
   isSpec: "True"
-  fullName: Andtech.Common.ShellUtility.Copy
-  nameWithType: ShellUtility.Copy
-- uid: Andtech.Common.ShellUtility.Find(System.String,System.String,System.String@,Andtech.Common.FindOptions)
+  fullName: Andtech.Common.ShellUtil.Copy
+  nameWithType: ShellUtil.Copy
+- uid: Andtech.Common.ShellUtil.Find(System.String,System.String,System.String@,Andtech.Common.FindOptions)
   name: Find(String, String, out String, FindOptions)
-  href: api/Andtech.Common.ShellUtility.html#Andtech_Common_ShellUtility_Find_System_String_System_String_System_String__Andtech_Common_FindOptions_
-  commentId: M:Andtech.Common.ShellUtility.Find(System.String,System.String,System.String@,Andtech.Common.FindOptions)
+  href: api/Andtech.Common.ShellUtil.html#Andtech_Common_ShellUtil_Find_System_String_System_String_System_String__Andtech_Common_FindOptions_
+  commentId: M:Andtech.Common.ShellUtil.Find(System.String,System.String,System.String@,Andtech.Common.FindOptions)
   name.vb: Find(String, String, ByRef String, FindOptions)
-  fullName: Andtech.Common.ShellUtility.Find(System.String, System.String, out System.String, Andtech.Common.FindOptions)
-  fullName.vb: Andtech.Common.ShellUtility.Find(System.String, System.String, ByRef System.String, Andtech.Common.FindOptions)
-  nameWithType: ShellUtility.Find(String, String, out String, FindOptions)
-  nameWithType.vb: ShellUtility.Find(String, String, ByRef String, FindOptions)
-- uid: Andtech.Common.ShellUtility.Find*
+  fullName: Andtech.Common.ShellUtil.Find(System.String, System.String, out System.String, Andtech.Common.FindOptions)
+  fullName.vb: Andtech.Common.ShellUtil.Find(System.String, System.String, ByRef System.String, Andtech.Common.FindOptions)
+  nameWithType: ShellUtil.Find(String, String, out String, FindOptions)
+  nameWithType.vb: ShellUtil.Find(String, String, ByRef String, FindOptions)
+- uid: Andtech.Common.ShellUtil.Find*
   name: Find
-  href: api/Andtech.Common.ShellUtility.html#Andtech_Common_ShellUtility_Find_
-  commentId: Overload:Andtech.Common.ShellUtility.Find
+  href: api/Andtech.Common.ShellUtil.html#Andtech_Common_ShellUtil_Find_
+  commentId: Overload:Andtech.Common.ShellUtil.Find
   isSpec: "True"
-  fullName: Andtech.Common.ShellUtility.Find
-  nameWithType: ShellUtility.Find
-- uid: Andtech.Common.ShellUtility.Move(System.String,System.String,System.Boolean)
+  fullName: Andtech.Common.ShellUtil.Find
+  nameWithType: ShellUtil.Find
+- uid: Andtech.Common.ShellUtil.GetDestinationPath(System.String,System.String)
+  name: GetDestinationPath(String, String)
+  href: api/Andtech.Common.ShellUtil.html#Andtech_Common_ShellUtil_GetDestinationPath_System_String_System_String_
+  commentId: M:Andtech.Common.ShellUtil.GetDestinationPath(System.String,System.String)
+  fullName: Andtech.Common.ShellUtil.GetDestinationPath(System.String, System.String)
+  nameWithType: ShellUtil.GetDestinationPath(String, String)
+- uid: Andtech.Common.ShellUtil.GetDestinationPath*
+  name: GetDestinationPath
+  href: api/Andtech.Common.ShellUtil.html#Andtech_Common_ShellUtil_GetDestinationPath_
+  commentId: Overload:Andtech.Common.ShellUtil.GetDestinationPath
+  isSpec: "True"
+  fullName: Andtech.Common.ShellUtil.GetDestinationPath
+  nameWithType: ShellUtil.GetDestinationPath
+- uid: Andtech.Common.ShellUtil.Move(System.String,System.String,System.Boolean)
   name: Move(String, String, Boolean)
-  href: api/Andtech.Common.ShellUtility.html#Andtech_Common_ShellUtility_Move_System_String_System_String_System_Boolean_
-  commentId: M:Andtech.Common.ShellUtility.Move(System.String,System.String,System.Boolean)
-  fullName: Andtech.Common.ShellUtility.Move(System.String, System.String, System.Boolean)
-  nameWithType: ShellUtility.Move(String, String, Boolean)
-- uid: Andtech.Common.ShellUtility.Move*
+  href: api/Andtech.Common.ShellUtil.html#Andtech_Common_ShellUtil_Move_System_String_System_String_System_Boolean_
+  commentId: M:Andtech.Common.ShellUtil.Move(System.String,System.String,System.Boolean)
+  fullName: Andtech.Common.ShellUtil.Move(System.String, System.String, System.Boolean)
+  nameWithType: ShellUtil.Move(String, String, Boolean)
+- uid: Andtech.Common.ShellUtil.Move*
   name: Move
-  href: api/Andtech.Common.ShellUtility.html#Andtech_Common_ShellUtility_Move_
-  commentId: Overload:Andtech.Common.ShellUtility.Move
+  href: api/Andtech.Common.ShellUtil.html#Andtech_Common_ShellUtil_Move_
+  commentId: Overload:Andtech.Common.ShellUtil.Move
   isSpec: "True"
-  fullName: Andtech.Common.ShellUtility.Move
-  nameWithType: ShellUtility.Move
-- uid: Andtech.Common.ShellUtility.OpenBrowser(System.String)
+  fullName: Andtech.Common.ShellUtil.Move
+  nameWithType: ShellUtil.Move
+- uid: Andtech.Common.ShellUtil.OpenBrowser(System.String)
   name: OpenBrowser(String)
-  href: api/Andtech.Common.ShellUtility.html#Andtech_Common_ShellUtility_OpenBrowser_System_String_
-  commentId: M:Andtech.Common.ShellUtility.OpenBrowser(System.String)
-  fullName: Andtech.Common.ShellUtility.OpenBrowser(System.String)
-  nameWithType: ShellUtility.OpenBrowser(String)
-- uid: Andtech.Common.ShellUtility.OpenBrowser*
+  href: api/Andtech.Common.ShellUtil.html#Andtech_Common_ShellUtil_OpenBrowser_System_String_
+  commentId: M:Andtech.Common.ShellUtil.OpenBrowser(System.String)
+  fullName: Andtech.Common.ShellUtil.OpenBrowser(System.String)
+  nameWithType: ShellUtil.OpenBrowser(String)
+- uid: Andtech.Common.ShellUtil.OpenBrowser*
   name: OpenBrowser
-  href: api/Andtech.Common.ShellUtility.html#Andtech_Common_ShellUtility_OpenBrowser_
-  commentId: Overload:Andtech.Common.ShellUtility.OpenBrowser
+  href: api/Andtech.Common.ShellUtil.html#Andtech_Common_ShellUtil_OpenBrowser_
+  commentId: Overload:Andtech.Common.ShellUtil.OpenBrowser
   isSpec: "True"
-  fullName: Andtech.Common.ShellUtility.OpenBrowser
-  nameWithType: ShellUtility.OpenBrowser
-- uid: Andtech.Common.ShellUtility.RunInDirectory(System.String,Action)
+  fullName: Andtech.Common.ShellUtil.OpenBrowser
+  nameWithType: ShellUtil.OpenBrowser
+- uid: Andtech.Common.ShellUtil.RunInDirectory(System.String,System.Action)
   name: RunInDirectory(String, Action)
-  href: api/Andtech.Common.ShellUtility.html#Andtech_Common_ShellUtility_RunInDirectory_System_String_Action_
-  commentId: M:Andtech.Common.ShellUtility.RunInDirectory(System.String,Action)
-  fullName: Andtech.Common.ShellUtility.RunInDirectory(System.String, Action)
-  nameWithType: ShellUtility.RunInDirectory(String, Action)
-- uid: Andtech.Common.ShellUtility.RunInDirectory*
+  href: api/Andtech.Common.ShellUtil.html#Andtech_Common_ShellUtil_RunInDirectory_System_String_System_Action_
+  commentId: M:Andtech.Common.ShellUtil.RunInDirectory(System.String,System.Action)
+  fullName: Andtech.Common.ShellUtil.RunInDirectory(System.String, System.Action)
+  nameWithType: ShellUtil.RunInDirectory(String, Action)
+- uid: Andtech.Common.ShellUtil.RunInDirectory*
   name: RunInDirectory
-  href: api/Andtech.Common.ShellUtility.html#Andtech_Common_ShellUtility_RunInDirectory_
-  commentId: Overload:Andtech.Common.ShellUtility.RunInDirectory
+  href: api/Andtech.Common.ShellUtil.html#Andtech_Common_ShellUtil_RunInDirectory_
+  commentId: Overload:Andtech.Common.ShellUtil.RunInDirectory
   isSpec: "True"
-  fullName: Andtech.Common.ShellUtility.RunInDirectory
-  nameWithType: ShellUtility.RunInDirectory
+  fullName: Andtech.Common.ShellUtil.RunInDirectory
+  nameWithType: ShellUtil.RunInDirectory
 - uid: Andtech.Common.Verbosity
   name: Verbosity
   href: api/Andtech.Common.Verbosity.html

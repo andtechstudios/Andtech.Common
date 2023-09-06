@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class ShellUtility
+    <title>Class ShellUtil
    | Andtech </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class ShellUtility
+    <meta name="title" content="Class ShellUtil
    | Andtech ">
     <meta name="generator" content="docfx 2.51.0.0">
     
@@ -78,34 +78,34 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Andtech.Common.ShellUtility">
+            <article class="content wrap" id="_content" data-uid="Andtech.Common.ShellUtil">
   
   
-  <h1 id="Andtech_Common_ShellUtility" data-uid="Andtech.Common.ShellUtility" class="text-break">Class ShellUtility
+  <h1 id="Andtech_Common_ShellUtil" data-uid="Andtech.Common.ShellUtil" class="text-break">Class ShellUtil
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">ShellUtility</span></div>
+    <div class="level1"><span class="xref">ShellUtil</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Andtech.Common.html">Andtech.Common</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Andtech_Common_ShellUtility_syntax">Syntax</h5>
+  <h5 id="Andtech_Common_ShellUtil_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class ShellUtility</code></pre>
+    <pre><code class="lang-csharp hljs">public static class ShellUtil</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
-  <a id="Andtech_Common_ShellUtility_Copy_" data-uid="Andtech.Common.ShellUtility.Copy*"></a>
-  <h4 id="Andtech_Common_ShellUtility_Copy_System_String_System_String_System_Boolean_" data-uid="Andtech.Common.ShellUtility.Copy(System.String,System.String,System.Boolean)">Copy(String, String, Boolean)</h4>
+  <a id="Andtech_Common_ShellUtil_Copy_" data-uid="Andtech.Common.ShellUtil.Copy*"></a>
+  <h4 id="Andtech_Common_ShellUtil_Copy_System_String_System_String_System_Boolean_" data-uid="Andtech.Common.ShellUtil.Copy(System.String,System.String,System.Boolean)">Copy(String, String, Boolean)</h4>
   <div class="markdown level1 summary"><p>Copies the file or directory to the destination.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Copy(string sourcePath, string destPath, bool overwrite = false)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void Copy(string src, string dest, bool parents = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -119,26 +119,23 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">sourcePath</span></td>
-        <td><p>The name of the file/directory to move.</p>
-</td>
+        <td><span class="parametername">src</span></td>
+        <td></td>
       </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">destPath</span></td>
-        <td><p>The new path of the file/directory.</p>
-</td>
+        <td><span class="parametername">dest</span></td>
+        <td></td>
       </tr>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">overwrite</span></td>
-        <td><p>true if the destination can be overwritten; false otherwise.</p>
-</td>
+        <td><span class="parametername">parents</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
-  <a id="Andtech_Common_ShellUtility_Find_" data-uid="Andtech.Common.ShellUtility.Find*"></a>
-  <h4 id="Andtech_Common_ShellUtility_Find_System_String_System_String_System_String__Andtech_Common_FindOptions_" data-uid="Andtech.Common.ShellUtility.Find(System.String,System.String,System.String@,Andtech.Common.FindOptions)">Find(String, String, out String, FindOptions)</h4>
+  <a id="Andtech_Common_ShellUtil_Find_" data-uid="Andtech.Common.ShellUtil.Find*"></a>
+  <h4 id="Andtech_Common_ShellUtil_Find_System_String_System_String_System_String__Andtech_Common_FindOptions_" data-uid="Andtech.Common.ShellUtil.Find(System.String,System.String,System.String@,Andtech.Common.FindOptions)">Find(String, String, out String, FindOptions)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -192,14 +189,14 @@
       </tr>
     </tbody>
   </table>
-  <a id="Andtech_Common_ShellUtility_Move_" data-uid="Andtech.Common.ShellUtility.Move*"></a>
-  <h4 id="Andtech_Common_ShellUtility_Move_System_String_System_String_System_Boolean_" data-uid="Andtech.Common.ShellUtility.Move(System.String,System.String,System.Boolean)">Move(String, String, Boolean)</h4>
-  <div class="markdown level1 summary"><p>Moves the file or directory to the destination.</p>
+  <a id="Andtech_Common_ShellUtil_GetDestinationPath_" data-uid="Andtech.Common.ShellUtil.GetDestinationPath*"></a>
+  <h4 id="Andtech_Common_ShellUtil_GetDestinationPath_System_String_System_String_" data-uid="Andtech.Common.ShellUtil.GetDestinationPath(System.String,System.String)">GetDestinationPath(String, String)</h4>
+  <div class="markdown level1 summary"><p>Returns the suggest UNIX-style path of the given transfer operation.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Move(string sourcePath, string destPath, bool overwrite = true)</code></pre>
+    <pre><code class="lang-csharp hljs">public static string GetDestinationPath(string src, string dest)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -213,26 +210,69 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">sourcePath</span></td>
-        <td><p>The name of the file/directory to move.</p>
-</td>
+        <td><span class="parametername">src</span></td>
+        <td></td>
       </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">destPath</span></td>
-        <td><p>The new path of the file/directory.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">overwrite</span></td>
-        <td><p>true if the destination can be overwritten; false otherwise.</p>
-</td>
+        <td><span class="parametername">dest</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
-  <a id="Andtech_Common_ShellUtility_OpenBrowser_" data-uid="Andtech.Common.ShellUtility.OpenBrowser*"></a>
-  <h4 id="Andtech_Common_ShellUtility_OpenBrowser_System_String_" data-uid="Andtech.Common.ShellUtility.OpenBrowser(System.String)">OpenBrowser(String)</h4>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Andtech_Common_ShellUtil_Move_" data-uid="Andtech.Common.ShellUtil.Move*"></a>
+  <h4 id="Andtech_Common_ShellUtil_Move_System_String_System_String_System_Boolean_" data-uid="Andtech.Common.ShellUtil.Move(System.String,System.String,System.Boolean)">Move(String, String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Moves the file or directory to the destination.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Move(string src, string dest, bool parents = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">src</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">dest</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">parents</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Andtech_Common_ShellUtil_OpenBrowser_" data-uid="Andtech.Common.ShellUtil.OpenBrowser*"></a>
+  <h4 id="Andtech_Common_ShellUtil_OpenBrowser_System_String_" data-uid="Andtech.Common.ShellUtil.OpenBrowser(System.String)">OpenBrowser(String)</h4>
   <div class="markdown level1 summary"><p>Launches the system web browser using <code data-dev-comment-type="paramref" class="paramref">url</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -258,8 +298,8 @@
       </tr>
     </tbody>
   </table>
-  <a id="Andtech_Common_ShellUtility_RunInDirectory_" data-uid="Andtech.Common.ShellUtility.RunInDirectory*"></a>
-  <h4 id="Andtech_Common_ShellUtility_RunInDirectory_System_String_Action_" data-uid="Andtech.Common.ShellUtility.RunInDirectory(System.String,Action)">RunInDirectory(String, Action)</h4>
+  <a id="Andtech_Common_ShellUtil_RunInDirectory_" data-uid="Andtech.Common.ShellUtil.RunInDirectory*"></a>
+  <h4 id="Andtech_Common_ShellUtil_RunInDirectory_System_String_System_Action_" data-uid="Andtech.Common.ShellUtil.RunInDirectory(System.String,System.Action)">RunInDirectory(String, Action)</h4>
   <div class="markdown level1 summary"><p>Run an action in a directory, then switch back.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -284,7 +324,7 @@
 </td>
       </tr>
       <tr>
-        <td><span class="xref">Action</span></td>
+        <td><span class="xref">System.Action</span></td>
         <td><span class="parametername">action</span></td>
         <td><p>The action to perform.</p>
 </td>
