@@ -6,7 +6,7 @@ using System.Text.RegularExpressions;
 namespace Andtech.Common
 {
 
-	public static class ParseUtility
+	public static class ParseUtil
 	{
 
 		/// <summary>
@@ -74,7 +74,7 @@ namespace Andtech.Common
 		public static string Http(string url)
 		{
 			url = Regex.Replace(url, @"^https?://", string.Empty);
-			url = $"http://{url}"; 
+			url = $"http://{url}";
 
 			return url;
 		}

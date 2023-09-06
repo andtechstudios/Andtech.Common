@@ -1,4 +1,3 @@
-using NUnit.Framework;
 using System.Text.RegularExpressions;
 
 namespace Andtech.Common.Tests
@@ -10,7 +9,7 @@ namespace Andtech.Common.Tests
 		[Test]
 		public void ParseRooted()
 		{
-			var expression = ParseUtility.GlobToRegex("/alpha");
+			var expression = ParseUtil.GlobToRegex("/alpha");
 
 			Assert.AreEqual("^alpha$", expression);
 		}
@@ -18,7 +17,7 @@ namespace Andtech.Common.Tests
 		[Test]
 		public void MatchAnywhere()
 		{
-			var expression = ParseUtility.GlobToRegex("alpha");
+			var expression = ParseUtil.GlobToRegex("alpha");
 			var regex = new Regex(expression);
 
 			Assert.IsTrue(regex.IsMatch("alpha"));
@@ -29,7 +28,7 @@ namespace Andtech.Common.Tests
 		[Test]
 		public void MatchRootedOnly()
 		{
-			var expression = ParseUtility.GlobToRegex("/alpha");
+			var expression = ParseUtil.GlobToRegex("/alpha");
 			var regex = new Regex(expression);
 
 			Assert.IsTrue(regex.IsMatch("alpha"));
@@ -40,7 +39,7 @@ namespace Andtech.Common.Tests
 		[Test]
 		public void MatchWildcard()
 		{
-			var expression = ParseUtility.GlobToRegex("alpha/*");
+			var expression = ParseUtil.GlobToRegex("alpha/*");
 			var regex = new Regex(expression);
 
 			Assert.IsTrue(regex.IsMatch("alpha/bravo"));
@@ -51,7 +50,7 @@ namespace Andtech.Common.Tests
 		[Test]
 		public void MatchGlobstar()
 		{
-			var expression = ParseUtility.GlobToRegex("**/alpha");
+			var expression = ParseUtil.GlobToRegex("**/alpha");
 			var regex = new Regex(expression);
 
 			Assert.IsTrue(regex.IsMatch("alpha"));
@@ -62,7 +61,7 @@ namespace Andtech.Common.Tests
 		[Test]
 		public void ParseHttp()
 		{
-			var url = ParseUtility.Http("example.com");
+			var url = ParseUtil.Http("example.com");
 
 			Assert.AreEqual("http://example.com", url);
 		}
@@ -70,7 +69,7 @@ namespace Andtech.Common.Tests
 		[Test]
 		public void ParseHttpAlready()
 		{
-			var url = ParseUtility.Http("http://example.com");
+			var url = ParseUtil.Http("http://example.com");
 
 			Assert.AreEqual("http://example.com", url);
 		}
@@ -78,7 +77,7 @@ namespace Andtech.Common.Tests
 		[Test]
 		public void ParseHttpFromHttps()
 		{
-			var url = ParseUtility.Http("https://example.com");
+			var url = ParseUtil.Http("https://example.com");
 
 			Assert.AreEqual("http://example.com", url);
 		}
@@ -86,7 +85,7 @@ namespace Andtech.Common.Tests
 		[Test]
 		public void ParseHttps()
 		{
-			var url = ParseUtility.Https("example.com");
+			var url = ParseUtil.Https("example.com");
 
 			Assert.AreEqual("https://example.com", url);
 		}
@@ -94,7 +93,7 @@ namespace Andtech.Common.Tests
 		[Test]
 		public void ParseHttpsAlready()
 		{
-			var url = ParseUtility.Https("https://example.com");
+			var url = ParseUtil.Https("https://example.com");
 
 			Assert.AreEqual("https://example.com", url);
 		}
@@ -102,7 +101,7 @@ namespace Andtech.Common.Tests
 		[Test]
 		public void ParseHttpsFromHttp()
 		{
-			var url = ParseUtility.Https("http://example.com");
+			var url = ParseUtil.Https("http://example.com");
 
 			Assert.AreEqual("https://example.com", url);
 		}
