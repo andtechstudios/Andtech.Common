@@ -4,7 +4,7 @@
 		<Authors>Andtech Studios</Authors>
 		<Copyright>© 2022 $(Company)</Copyright>
 		<RepositoryUrl>https://github.com/andtechstudios/Andtech.Common</RepositoryUrl>
-		<TargetFramework>net6.0</TargetFramework>
+		<TargetFrameworks>net6.0;net7.0</TargetFrameworks>
 	</PropertyGroup>
 
 	<ItemGroup>
