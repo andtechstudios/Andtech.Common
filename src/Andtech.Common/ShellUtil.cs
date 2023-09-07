@@ -80,29 +80,26 @@ namespace Andtech.Common
 				throw new NotImplementedException();
 			}
 
-			path = searchRoot;
-
-			var directoryInfo = new DirectoryInfo(searchRoot);
-			while (directoryInfo != null)
+			var dir = new DirectoryInfo(searchRoot);
+			while (dir != null)
 			{
-				path = directoryInfo.FullName;
-				var expectedPath = Path.Combine(path, query);
+				var expectedPath = Path.Combine(dir.FullName, query);
 				if (Directory.Exists(expectedPath))
 				{
 					path = expectedPath;
-					break;
+					return true;
 				}
-
-				var parent = Directory.GetParent(path);
-				if (parent is null)
+				if (File.Exists(expectedPath))
 				{
-					return false;
+					path = expectedPath;
+					return true;
 				}
 
-				directoryInfo = parent;
+				dir = Directory.GetParent(dir.FullName);
 			}
 
-			return true;
+			path = string.Empty;
+			return false;
 		}
 
 		#region io
