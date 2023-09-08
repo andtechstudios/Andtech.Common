@@ -157,6 +157,15 @@ namespace Andtech.Common
 			CopyFileOrDirectory(src, dest, overwrite: true);
 		}
 
+		/// <summary>
+		/// Deletes the file or directory.
+		/// </summary>
+		/// <param name="sourcePath">The name of the file/directory to delete.</param>
+		public static void Delete(string path)
+		{
+			DeleteFileOrDirectory(path);
+		}
+
 		internal static void DeleteFileOrDirectory(string path)
 		{
 			if (Directory.Exists(path))
